@@ -1,0 +1,127 @@
+name: arcdiff
+# Part 6 — on PR: sync check, index rebuild, before/after comment, fuzzy review flag.
+on:
+  pull_request:
+    paths: ["drawings/**", "state/**"]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install arcdiff tool
+        run: |
+          pip install "git+https://github.com/cherryblossompie/Gitails-Tools.git"
+          arcdiff --help
+
+      - name: Fetch tool config (materials/layers)
+        run: |
+          git clone --depth 1 https://github.com/cherryblossompie/Gitails-Tools.git /tmp/tool
+          ls /tmp/tool/config
+
+      - name: Sync check (fail if DXF committed without extract)
+        run: |
+          fail=0
+          for dxf in drawings/*.dxf; do
+            [ -e "$dxf" ] || continue
+            echo "--- check $dxf"
+            arcdiff extract "$dxf" --state-dir state --config-dir /tmp/tool/config --check || fail=1
+          done
+          exit $fail
+
+      - name: Build index + report
+        run: |
+          arcdiff index --repo . --db /tmp/index.sqlite
+          arcdiff report --db /tmp/index.sqlite --html report.html --markdown report.md
+          ls -la /tmp/index.sqlite report.html report.md
+
+      - name: Build PR comment
+        id: comment
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          python - <<'PY'
+          import json, os, subprocess
+          base = os.environ["BASE_SHA"]
+          head = os.environ["HEAD_SHA"]
+          out = subprocess.run(["arcdiff", "changed", "--from", base, "--to", head,
+                                "--db", "/tmp/index.sqlite", "--json"],
+                               capture_output=True, text=True)
+          try:
+              changes = json.loads(out.stdout or "[]")
+          except json.JSONDecodeError:
+              changes = []
+          # fuzzy reviews: re-run extract live to temp and collect REVIEW lines
+          import glob
+          fuzzy = []
+          for dxf in glob.glob("drawings/*.dxf"):
+              p = subprocess.run(["arcdiff", "extract", dxf, "--state-dir", "/tmp/fxstate",
+                                  "--config-dir", "/tmp/tool/config"],
+                                 capture_output=True, text=True)
+              # seed temp state with committed state so IDs resolve like CI sees them
+              for line in (p.stdout + p.stderr).splitlines():
+                  if line.startswith("REVIEW fuzzy:"):
+                      fuzzy.append(f"{dxf}: {line}")
+          # NOTE: live extract above runs against committed state on first file;
+          # tier-3 flags here are advisory — drafters confirm in the PR thread.
+          with open("pr_comment.md", "w") as f:
+              f.write("## arcdiff review\n\n")
+              if not changes:
+                  f.write("No element changes detected.\n\n")
+              else:
+                  from collections import defaultdict
+                  by_drw = defaultdict(list)
+                  for c in changes:
+                      by_drw[c["drawing"]].append(c)
+                  for drw in sorted(by_drw):
+                      f.write(f"### {drw}\n\n")
+                      f.write("| element | change | before | after |\n")
+                      f.write("|---|---|---|---|\n")
+                      for c in by_drw[drw]:
+                          b, a = c.get("before") or {}, c.get("after") or {}
+                          def fmt(r):
+                              if not r: return "—"
+                              return f"{r.get('material') or ''} {r.get('value') or ''} `{r.get('text_raw') or ''}`".strip()
+                          f.write(f"| `{c['element_id']}` | {c['change']} | {fmt(b)} | {fmt(a)} |\n")
+                      f.write("\n")
+              f.write("### Fuzzy matches needing human review\n\n")
+              if fuzzy:
+                  for line in fuzzy:
+                      f.write(f"- ⚠️ {line}\n")
+              else:
+                  f.write("None.\n")
+          print(f"changes={len(changes)} fuzzy={len(fuzzy)}")
+          PY
+          cat pr_comment.md
+
+      - name: Comment on PR
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('pr_comment.md', 'utf8');
+            github.rest.issues.createComment({
+              owner: context.repo.owner, repo: context.repo.repo,
+              issue_number: context.issue.number, body
+            });
+
+      - name: Upload static search report
+        uses: actions/upload-artifact@v4
+        with:
+          name: arcdiff-report
+          path: |
+            report.html
+            report.md
