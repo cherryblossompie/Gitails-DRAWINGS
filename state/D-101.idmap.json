@@ -61,15 +61,15 @@
       "dim_measurement": null,
       "dim_override": null,
       "dxf_handle": "30",
-      "fingerprint": "sha1:030ec62b82d4a0bad5aceb178fe06d083559f37e",
+      "fingerprint": "sha1:9780c05d59ff1d94251b7a862de0da237da3fa53",
       "hatch_pattern": null,
       "layer": "A-DETL-ANNO",
       "parsed": {
         "material": "glass",
         "unit": "mm",
-        "value": 3
+        "value": 2
       },
-      "text_raw": "3mm GLASS",
+      "text_raw": "2mm GLASS",
       "type": "MTEXT",
       "x": 1246.7,
       "y": 876.2
