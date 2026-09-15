@@ -1,4 +1,4 @@
-name: arcdiff
+name: gitail
 # Part 6 — on PR: sync check, index rebuild, before/after comment, fuzzy review flag.
 on:
   pull_request:
@@ -21,10 +21,10 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install arcdiff tool
+      - name: Install gitail tool
         run: |
           pip install "git+https://github.com/cherryblossompie/Gitails-Tools.git"
-          arcdiff --help
+          gitail --help
 
       - name: Fetch tool config (materials/layers)
         run: |
@@ -36,16 +36,16 @@ jobs:
           fail=0
           find drawings -name '*.dxf' | while read dxf; do
             echo "--- check $dxf"
-            arcdiff extract "$dxf" --state-dir state --drawings-dir drawings --config-dir /tmp/tool/config --check || fail=1
+            gitail extract "$dxf" --state-dir state --drawings-dir drawings --config-dir /tmp/tool/config --check || fail=1
           done
-          arcdiff render --drawings-dir drawings --pdf-dir pdf --check || fail=1
+          gitail render --drawings-dir drawings --pdf-dir pdf --check || fail=1
           exit $fail
 
       - name: Build index + report
         run: |
-          arcdiff index --repo . --db /tmp/index.sqlite
-          arcdiff render --drawings-dir drawings --pdf-dir /tmp/pdf
-          arcdiff report --db /tmp/index.sqlite --html report.html --markdown report.md --pdf-dir /tmp/pdf
+          gitail index --repo . --db /tmp/index.sqlite
+          gitail render --drawings-dir drawings --pdf-dir /tmp/pdf
+          gitail report --db /tmp/index.sqlite --html report.html --markdown report.md --pdf-dir /tmp/pdf
           ls -la /tmp/index.sqlite report.html report.md
 
       - name: Build PR comment
@@ -58,7 +58,7 @@ jobs:
           import json, os, subprocess
           base = os.environ["BASE_SHA"]
           head = os.environ["HEAD_SHA"]
-          out = subprocess.run(["arcdiff", "changed", "--from", base, "--to", head,
+          out = subprocess.run(["gitail", "changed", "--from", base, "--to", head,
                                 "--db", "/tmp/index.sqlite", "--json"],
                                capture_output=True, text=True)
           try:
@@ -69,7 +69,7 @@ jobs:
           import glob
           fuzzy = []
           for dxf in glob.glob("drawings/**/*.dxf", recursive=True):
-              p = subprocess.run(["arcdiff", "extract", dxf, "--state-dir", "/tmp/fxstate",
+              p = subprocess.run(["gitail", "extract", dxf, "--state-dir", "/tmp/fxstate",
                                   "--drawings-dir", "drawings",
                                   "--config-dir", "/tmp/tool/config"],
                                  capture_output=True, text=True)
@@ -80,7 +80,7 @@ jobs:
           # NOTE: live extract above runs against committed state on first file;
           # tier-3 flags here are advisory — drafters confirm in the PR thread.
           with open("pr_comment.md", "w") as f:
-              f.write("## arcdiff review\n\n")
+              f.write("## gitail review\n\n")
               if not changes:
                   f.write("No element changes detected.\n\n")
               else:
@@ -123,7 +123,7 @@ jobs:
       - name: Upload static search report
         uses: actions/upload-artifact@v4
         with:
-          name: arcdiff-report
+          name: gitail-report
           path: |
             report.html
             report.md

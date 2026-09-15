@@ -1,6 +1,6 @@
 # Gitails-DRAWINGS — drawing repository (source of truth: DXF)
 
-Layout maintained by `arcdiff` from Gitails-Tools:
+Layout maintained by `gitail` from Gitails-Tools:
 
 ```
 drawings/D-101.dxf            # or drawings/<project>/D-102.dxf
@@ -19,8 +19,8 @@ the **PDF**; the DXF text source is one extra click away.
 
 ```bash
 # .dwg? export to ASCII DXF R2018+ first (ODA File Converter or AutoCAD).
-arcdiff extract drawings/StageC/D-102.dxf --state-dir state --drawings-dir drawings --config-dir ../Gitails-Tools/config
-arcdiff render --drawings-dir drawings --pdf-dir pdf
+gitail extract drawings/StageC/D-102.dxf --state-dir state --drawings-dir drawings --config-dir ../Gitails-Tools/config
+gitail render --drawings-dir drawings --pdf-dir pdf
 git add drawings state pdf
 git commit -m "Rev C: glazing 3mm -> 2mm"
 ```
@@ -32,13 +32,13 @@ git commit -m "Rev C: glazing 3mm -> 2mm"
 
 ```bash
 pip install "git+https://github.com/cherryblossompie/Gitails-Tools.git"
-arcdiff index --repo . --db index.sqlite
+gitail index --repo . --db index.sqlite
 # brief query: every detail ever glazed 3mm + which revision changed it:
-arcdiff find --db index.sqlite --material glass --value 3 --ever
-arcdiff find --db index.sqlite --project StageC --material concrete
-arcdiff history <element_id> --db index.sqlite
+gitail find --db index.sqlite --material glass --value 3 --ever
+gitail find --db index.sqlite --project StageC --material concrete
+gitail history <element_id> --db index.sqlite
 # static page — open in browser, no server (autocomplete + PDF links):
-arcdiff report --db index.sqlite --html report.html --pdf-dir pdf
+gitail report --db index.sqlite --html report.html --pdf-dir pdf
 ```
 
 On pull requests, CI posts before/after values per drawing, flags fuzzy
