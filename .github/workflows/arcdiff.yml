@@ -31,19 +31,21 @@ jobs:
           git clone --depth 1 https://github.com/cherryblossompie/Gitails-Tools.git /tmp/tool
           ls /tmp/tool/config
 
-      - name: Sync check (fail if DXF committed without extract)
+      - name: Sync check (fail if DXF committed without extract/render)
         run: |
           fail=0
           find drawings -name '*.dxf' | while read dxf; do
             echo "--- check $dxf"
             arcdiff extract "$dxf" --state-dir state --drawings-dir drawings --config-dir /tmp/tool/config --check || fail=1
           done
+          arcdiff render --drawings-dir drawings --pdf-dir pdf --check || fail=1
           exit $fail
 
       - name: Build index + report
         run: |
           arcdiff index --repo . --db /tmp/index.sqlite
-          arcdiff report --db /tmp/index.sqlite --html report.html --markdown report.md
+          arcdiff render --drawings-dir drawings --pdf-dir /tmp/pdf
+          arcdiff report --db /tmp/index.sqlite --html report.html --markdown report.md --pdf-dir /tmp/pdf
           ls -la /tmp/index.sqlite report.html report.md
 
       - name: Build PR comment
@@ -125,3 +127,4 @@ jobs:
           path: |
             report.html
             report.md
+            pdf/**/*.pdf

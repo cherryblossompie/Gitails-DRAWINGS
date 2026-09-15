@@ -1,26 +1,32 @@
 # Gitails-DRAWINGS — drawing repository (source of truth: DXF)
 
-Layout maintained by `arcdiff extract` from Gitails-Tools:
+Layout maintained by `arcdiff` from Gitails-Tools:
 
 ```
-drawings/D-101.dxf
-drawings/test-01.dxf
-drawings/test-02.dxf
-state/D-101.jsonl       # canonical state, committed
-state/D-101.idmap.json  # persistent element IDs, committed — never regenerate
+drawings/D-101.dxf            # or drawings/<project>/D-102.dxf
+drawings/StageC/D-102.dxf
+state/D-101.jsonl             # canonical state, committed (mirrors drawings/)
+state/D-101.idmap.json        # persistent element IDs, committed — never regenerate
+pdf/D-101.pdf                 # rendered preview, committed (mirrors drawings/)
+pdf/StageC/D-102.pdf
 ```
 
-## Drafter workflow (single command, runs locally)
+Inputs: `.dxf` (parsed), `.dwg` (companion — export to DXF first, never parsed),
+`.pdf` alone (view-only link, not searchable). Search-result links always open
+the **PDF**; the DXF text source is one extra click away.
+
+## Drafter workflow (runs locally)
 
 ```bash
-arcdiff extract drawings/D-101.dxf --state-dir state --config-dir ../Gitails-Tools/config
-git add drawings state
+# .dwg? export to ASCII DXF R2018+ first (ODA File Converter or AutoCAD).
+arcdiff extract drawings/StageC/D-102.dxf --state-dir state --drawings-dir drawings --config-dir ../Gitails-Tools/config
+arcdiff render --drawings-dir drawings --pdf-dir pdf
+git add drawings state pdf
 git commit -m "Rev C: glazing 3mm -> 2mm"
 ```
 
-* DWG→DXF export to ASCII DXF R2018+ before commit (`.dwg` may sit beside but is never parsed).
-* `state/*.jsonl` + `state/*.idmap.json` are committed. `index.sqlite` (Part 4) is derived, never committed.
-* If CI reports `state/*.jsonl` out of sync, you forgot to run extract.
+* `state/*.jsonl` + `state/*.idmap.json` + `pdf/**/*.pdf` are committed. `index.sqlite` is derived, never committed.
+* If CI reports `state/*.jsonl` out of sync, you forgot extract; if PDFs are stale, you forgot render.
 
 ## Search (needs Gitails-Tools installed)
 
@@ -29,10 +35,11 @@ pip install "git+https://github.com/cherryblossompie/Gitails-Tools.git"
 arcdiff index --repo . --db index.sqlite
 # brief query: every detail ever glazed 3mm + which revision changed it:
 arcdiff find --db index.sqlite --material glass --value 3 --ever
+arcdiff find --db index.sqlite --project StageC --material concrete
 arcdiff history <element_id> --db index.sqlite
-# static page — open in browser, no server:
-arcdiff report --db index.sqlite --html report.html
+# static page — open in browser, no server (autocomplete + PDF links):
+arcdiff report --db index.sqlite --html report.html --pdf-dir pdf
 ```
 
 On pull requests, CI posts before/after values per drawing, flags fuzzy
-matches for review, and fails when `state/*.jsonl` is out of sync.
+matches for review, and fails when state or PDFs are out of sync.
