@@ -34,10 +34,9 @@ jobs:
       - name: Sync check (fail if DXF committed without extract)
         run: |
           fail=0
-          for dxf in drawings/*.dxf; do
-            [ -e "$dxf" ] || continue
+          find drawings -name '*.dxf' | while read dxf; do
             echo "--- check $dxf"
-            arcdiff extract "$dxf" --state-dir state --config-dir /tmp/tool/config --check || fail=1
+            arcdiff extract "$dxf" --state-dir state --drawings-dir drawings --config-dir /tmp/tool/config --check || fail=1
           done
           exit $fail
 
@@ -67,8 +66,9 @@ jobs:
           # fuzzy reviews: re-run extract live to temp and collect REVIEW lines
           import glob
           fuzzy = []
-          for dxf in glob.glob("drawings/*.dxf"):
+          for dxf in glob.glob("drawings/**/*.dxf", recursive=True):
               p = subprocess.run(["arcdiff", "extract", dxf, "--state-dir", "/tmp/fxstate",
+                                  "--drawings-dir", "drawings",
                                   "--config-dir", "/tmp/tool/config"],
                                  capture_output=True, text=True)
               # seed temp state with committed state so IDs resolve like CI sees them
