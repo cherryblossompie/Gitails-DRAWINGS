@@ -9,11 +9,13 @@ state/D-101.jsonl             # canonical state, committed (mirrors drawings/)
 state/D-101.idmap.json        # persistent element IDs, committed — never regenerate
 pdf/D-101.pdf                 # rendered preview, committed (mirrors drawings/)
 pdf/StageC/D-102.pdf
+images/StageC/site.png        # view-only references (png/jpg), committed, never parsed
 ```
 
 Inputs: `.dxf` (parsed), `.dwg` (companion — export to DXF first, never parsed),
-`.pdf` alone (view-only link, not searchable). Search-result links always open
-the **PDF**; the DXF text source is one extra click away.
+`.pdf` alone (view-only link, not searchable), `.png`/`.jpg` (view-only thumbnails,
+never parsed). Search-result links always open the **PDF**; the DXF text source
+is one extra click away.
 
 ## Drafter workflow (runs locally)
 
