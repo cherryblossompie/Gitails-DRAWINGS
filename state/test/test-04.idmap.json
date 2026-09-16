@@ -1,0 +1,85 @@
+{
+  "drawing": "test/test-04",
+  "elements": {
+    "e_01206a": {
+      "bbox": [
+        58.9,
+        -78.2,
+        158.4,
+        -78.2
+      ],
+      "deleted": false,
+      "dim_measurement": null,
+      "dim_override": null,
+      "dxf_handle": "62",
+      "fingerprint": "sha1:cdc436a5ef06a2fa6539867bb43b3ea8d08cc631",
+      "hatch_pattern": null,
+      "layer": "Layer 1",
+      "parsed": null,
+      "text_raw": null,
+      "type": "LINE",
+      "x": 108.7,
+      "y": -78.2
+    },
+    "e_68aee1": {
+      "bbox": [
+        58.9,
+        -208.5,
+        158.4,
+        -208.5
+      ],
+      "deleted": false,
+      "dim_measurement": null,
+      "dim_override": null,
+      "dxf_handle": "60",
+      "fingerprint": "sha1:9ccb9b17c76e37ce63831d6b65e42a760850457f",
+      "hatch_pattern": null,
+      "layer": "Layer 1",
+      "parsed": null,
+      "text_raw": null,
+      "type": "LINE",
+      "x": 108.7,
+      "y": -208.5
+    },
+    "e_70e43b": {
+      "bbox": [
+        158.4,
+        -208.5,
+        158.4,
+        -78.2
+      ],
+      "deleted": false,
+      "dim_measurement": null,
+      "dim_override": null,
+      "dxf_handle": "63",
+      "fingerprint": "sha1:8655d0356817495e307e71c7cc407e87cd144485",
+      "hatch_pattern": null,
+      "layer": "Layer 1",
+      "parsed": null,
+      "text_raw": null,
+      "type": "LINE",
+      "x": 158.4,
+      "y": -143.3
+    },
+    "e_ec844d": {
+      "bbox": [
+        58.9,
+        -208.5,
+        58.9,
+        -78.2
+      ],
+      "deleted": false,
+      "dim_measurement": null,
+      "dim_override": null,
+      "dxf_handle": "61",
+      "fingerprint": "sha1:b366ba731e7e0dfe6362aa7ba20105a541831ae7",
+      "hatch_pattern": null,
+      "layer": "Layer 1",
+      "parsed": null,
+      "text_raw": null,
+      "type": "LINE",
+      "x": 58.9,
+      "y": -143.3
+    }
+  }
+}
