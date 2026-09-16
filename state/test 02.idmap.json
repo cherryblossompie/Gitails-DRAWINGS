@@ -1,0 +1,25 @@
+{
+  "drawing": "test 02",
+  "elements": {
+    "e_d0ee0e": {
+      "bbox": [
+        58.9,
+        -208.5,
+        158.4,
+        -68.2
+      ],
+      "deleted": false,
+      "dim_measurement": null,
+      "dim_override": null,
+      "dxf_handle": "79",
+      "fingerprint": "sha1:a2c82b4eb787f123881d81623486f2ae9c3efa77",
+      "hatch_pattern": null,
+      "layer": "Layer 1",
+      "parsed": null,
+      "text_raw": null,
+      "type": "LWPOLYLINE",
+      "x": 108.7,
+      "y": -138.3
+    }
+  }
+}
