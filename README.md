@@ -13,9 +13,10 @@ images/StageC/site.png        # view-only references (png/jpg), committed, never
 ```
 
 Inputs: `.dxf` (parsed), `.dwg` (companion — export to DXF first, never parsed),
-`.pdf` alone (view-only link, not searchable), `.png`/`.jpg` (view-only thumbnails,
-never parsed). Search-result links always open the **PDF**; the DXF text source
-is one extra click away.
+`.pdf` with a same-stem `.dxf` (view-only companion), `.pdf` alone (its **text layer**
+is parsed into searchable state; scanned images stay view-only), `.png`/`.jpg`
+(view-only thumbnails, never parsed). Search-result links always open the **PDF**;
+the DXF text source is one extra click away.
 
 ## Drafter workflow (runs locally)
 
