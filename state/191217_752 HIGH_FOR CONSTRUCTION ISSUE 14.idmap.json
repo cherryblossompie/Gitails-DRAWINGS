@@ -335,7 +335,9 @@
       "fingerprint": "sha1:ba64bf0be206137f6bdfd749f75e222df27a63e2",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "(REFER SCHEDULES FOR PRODUCT)",
       "type": "PDFTEXT",
       "x": 792.6,
@@ -375,7 +377,9 @@
       "fingerprint": "sha1:0eb3bd2bb3141fa5c189f0d6a630b419af777d84",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "skirting"
+      },
       "text_raw": "SKIRTING TYPE 3",
       "type": "PDFTEXT",
       "x": 743.7,
@@ -395,7 +399,9 @@
       "fingerprint": "sha1:41eff9af072053948a2c6e9883b273d74dc96e78",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "ON SUBSTRATE",
       "type": "PDFTEXT",
       "x": 160.4,
@@ -475,7 +481,9 @@
       "fingerprint": "sha1:1a386a1118b2a7f6cc75cfd7a80ccf552cebf912",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOOR:",
       "type": "PDFTEXT",
       "x": 423.8,
@@ -595,7 +603,9 @@
       "fingerprint": "sha1:8280f46d22d584fa1169e21b9cbe210ea60b1af6",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "tile"
+      },
       "text_raw": "SELECTED TILE",
       "type": "PDFTEXT",
       "x": 742.7,
@@ -635,7 +645,9 @@
       "fingerprint": "sha1:a8635ae991a6c6c58206ca1f9073c23867097377",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 383.4,
@@ -755,7 +767,10 @@
       "fingerprint": "sha1:b6cb744f3e945ff15c2a74c6629a8469638c4f3f",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel",
+        "part": "jamb"
+      },
       "text_raw": "PRODUCT: EZY JAMB",
       "type": "PDFTEXT",
       "x": 746.5,
@@ -775,7 +790,10 @@
       "fingerprint": "sha1:4ccbc2df16830ac9ebf2472b398701c5f909e206",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "timber",
+        "part": "decking"
+      },
       "text_raw": "SELECTED TIMBER DECKING",
       "type": "PDFTEXT",
       "x": 749.5,
@@ -875,7 +893,9 @@
       "fingerprint": "sha1:a6f5b0dd2e1e41a0f88897a0b5f5353693d32bd4",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 360.1,
@@ -895,7 +915,9 @@
       "fingerprint": "sha1:fb8b0bedc294cc79585de84bab508f6b5475aa32",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "slab"
+      },
       "text_raw": "NOM. 50MM SLAB",
       "type": "PDFTEXT",
       "x": 47.8,
@@ -915,7 +937,9 @@
       "fingerprint": "sha1:362346a5df3eabbee22afb372ec24918cd29e363",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 345.1,
@@ -935,7 +959,9 @@
       "fingerprint": "sha1:95919b2787268b1ef963485c93671bf6eb2ae94e",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "cladding"
+      },
       "text_raw": "EXTERNAL BRICK CLADDING",
       "type": "PDFTEXT",
       "x": 749.9,
@@ -1035,7 +1061,9 @@
       "fingerprint": "sha1:817780a2d298af46ccc505dddd2142783b43b733",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "ON SUBSTRATE",
       "type": "PDFTEXT",
       "x": 532.0,
@@ -1055,7 +1083,10 @@
       "fingerprint": "sha1:5fb0989b23a47796038fe174da35b89454ec4981",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "concrete",
+        "part": "slab"
+      },
       "text_raw": "CONCRETE SLAB REFER ENG.",
       "type": "PDFTEXT",
       "x": 69.8,
@@ -1135,7 +1166,9 @@
       "fingerprint": "sha1:aca6534d4461f46c0622732b656c6e0deb2be7ab",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 322.7,
@@ -1155,7 +1188,9 @@
       "fingerprint": "sha1:e71c1887b7d636a221543b25f7566befb54641ba",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "membrane"
+      },
       "text_raw": "MEMBRANE TO FALL. REFER",
       "type": "PDFTEXT",
       "x": 571.0,
@@ -1175,7 +1210,9 @@
       "fingerprint": "sha1:a26f0fc23f1ac0cbd953564cceb9d0f924ff2f7a",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "jamb"
+      },
       "text_raw": "JAMB LINER FIXED",
       "type": "PDFTEXT",
       "x": 684.4,
@@ -1255,7 +1292,9 @@
       "fingerprint": "sha1:6ce93bfddcb733d2b081f897b8b171cbc86e98da",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 290.6,
@@ -1475,7 +1514,9 @@
       "fingerprint": "sha1:1425b72b9fd93b5a1339f945a820666c38e4b0e9",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "concrete"
+      },
       "text_raw": "OR CONCRETE)",
       "type": "PDFTEXT",
       "x": 578.1,
@@ -1535,7 +1576,10 @@
       "fingerprint": "sha1:99bc7199817965a81148685407b111aa595ff094",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "concrete",
+        "part": "slab"
+      },
       "text_raw": "CONCRETE SLAB REFER ENG.",
       "type": "PDFTEXT",
       "x": 164.7,
@@ -1575,7 +1619,9 @@
       "fingerprint": "sha1:d5c29ff099a21320426c457c5c7d0b88272a27d8",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "outlet"
+      },
       "text_raw": "OUTLET",
       "type": "PDFTEXT",
       "x": 727.2,
@@ -1735,7 +1781,9 @@
       "fingerprint": "sha1:ca9e7081a3766e06e05d8a344cbba0ff9ab2902a",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "PAINTED WALL FINISH,",
       "type": "PDFTEXT",
       "x": 528.0,
@@ -1915,7 +1963,9 @@
       "fingerprint": "sha1:296ea9f0f9ee1e4dff37b06c9f4791e47dafca96",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "tile"
+      },
       "text_raw": "FOR TILE SELECTIONS)",
       "type": "PDFTEXT",
       "x": 786.3,
@@ -1975,7 +2025,10 @@
       "fingerprint": "sha1:c466a371365ca6380833d95d9a486dd1d558da34",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel",
+        "part": "floor"
+      },
       "text_raw": "STEEL FLAT BAR RECESSED INTO FLOOR",
       "type": "PDFTEXT",
       "x": 795.0,
@@ -1995,7 +2048,9 @@
       "fingerprint": "sha1:cd422d340c3cabb5faa2aec4552773e6a5647939",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOOR:",
       "type": "PDFTEXT",
       "x": 277.0,
@@ -2055,7 +2110,9 @@
       "fingerprint": "sha1:9b5111237a71d4c9671e047f6fef3ae69777f60d",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "door"
+      },
       "text_raw": "UNDER DOOR",
       "type": "PDFTEXT",
       "x": 598.5,
@@ -2155,7 +2212,9 @@
       "fingerprint": "sha1:1400696614c995bb3986a108d83bcfc8ffdec89b",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "aluminium"
+      },
       "text_raw": "CAV, ALUMINIUM",
       "type": "PDFTEXT",
       "x": 696.0,
@@ -2235,7 +2294,9 @@
       "fingerprint": "sha1:921f21d0cd6e41d7050b43f7f1b92f144a81b986",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "architrave"
+      },
       "text_raw": "ARCHITRAVE DETAIL",
       "type": "PDFTEXT",
       "x": 596.2,
@@ -2355,7 +2416,9 @@
       "fingerprint": "sha1:5756e4390180f6b0d231004589ebb4dfc83dcfbb",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "WALLS: FLOORS:",
       "type": "PDFTEXT",
       "x": 472.8,
@@ -2375,7 +2438,9 @@
       "fingerprint": "sha1:dbb2008bc95fb1080a4605c74326202c90af7b0e",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 279.8,
@@ -2475,7 +2540,9 @@
       "fingerprint": "sha1:d2b00296081ba3588353a495647d50ece849a73e",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "jamb"
+      },
       "text_raw": "10MM QUIRK AT DOOR JAMB",
       "type": "PDFTEXT",
       "x": 622.1,
@@ -2495,7 +2562,9 @@
       "fingerprint": "sha1:345f3099671453107697ada82f3e49b0ba224d4a",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "threshold"
+      },
       "text_raw": "SLAB AT THRESHOLD",
       "type": "PDFTEXT",
       "x": 44.8,
@@ -2635,7 +2704,9 @@
       "fingerprint": "sha1:390d1f8764885dccc35219a4aba3d872234dfa6a",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "BOTTOM OF WALL TILES",
       "type": "PDFTEXT",
       "x": 556.0,
@@ -2655,7 +2726,10 @@
       "fingerprint": "sha1:eaf712b037a73683f2bdacc2754bc67ef0be2b87",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "plasterboard",
+        "part": "plasterboard"
+      },
       "text_raw": "PLASTERBOARD WALL FINISH",
       "type": "PDFTEXT",
       "x": 601.5,
@@ -2795,7 +2869,9 @@
       "fingerprint": "sha1:b9f90f9a6f06f128d1b148d03e01b3cf319dd40a",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "ON SUBSTRATE",
       "type": "PDFTEXT",
       "x": 51.6,
@@ -2875,7 +2951,9 @@
       "fingerprint": "sha1:a0bd70e87c31f1b42f75da206e11bc6260b096e5",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "jamb"
+      },
       "text_raw": "CSD JAMB LINER",
       "type": "PDFTEXT",
       "x": 695.5,
@@ -2995,7 +3073,9 @@
       "fingerprint": "sha1:8711b3b6483072658cd2ab4b4c2953e33329d6eb",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "door"
+      },
       "text_raw": "DOOR",
       "type": "PDFTEXT",
       "x": 143.3,
@@ -3055,7 +3135,9 @@
       "fingerprint": "sha1:ac786cf843debc5df36b088679b86970f5b67cb6",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 498.6,
@@ -3075,7 +3157,10 @@
       "fingerprint": "sha1:97da845fefa443707feea3cdfd234ed1e1391e8a",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel",
+        "part": "wall"
+      },
       "text_raw": "WALL STRUCTURE (VARIES)",
       "type": "PDFTEXT",
       "x": 673.6,
@@ -3115,7 +3200,9 @@
       "fingerprint": "sha1:76a544ce6995510d959d4cedbb2b880cb1b72548",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "TYPICAL FLOOR FINISH (ENGINEERED",
       "type": "PDFTEXT",
       "x": 588.0,
@@ -3135,7 +3222,10 @@
       "fingerprint": "sha1:22c4627ba928c5873941abc8cbc0ecc3874871cf",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "aluminium",
+        "part": "jamb"
+      },
       "text_raw": "JAMB, ALUMINIUM",
       "type": "PDFTEXT",
       "x": 684.8,
@@ -3275,7 +3365,9 @@
       "fingerprint": "sha1:39e4c60877d022a01bd1ca52e51cdf7d9d5763d7",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "architrave"
+      },
       "text_raw": "ARCHITRAVE DETAIL",
       "type": "PDFTEXT",
       "x": 71.2,
@@ -3355,7 +3447,9 @@
       "fingerprint": "sha1:f1c8246233fedd2a42b4676567ebbc0cb9a8b7a9",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "ON SUBSTRATE",
       "type": "PDFTEXT",
       "x": 154.6,
@@ -3395,7 +3489,9 @@
       "fingerprint": "sha1:4e19f86b50c8c8d0934927c3ee5fb6ec479a89c2",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "drain"
+      },
       "text_raw": "STRIP DRAIN WITH TILE INSET",
       "type": "PDFTEXT",
       "x": 784.0,
@@ -3495,7 +3591,10 @@
       "fingerprint": "sha1:48a20ce55834fff57d184dbe7ba385c45bfa6b0d",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel",
+        "part": "floor"
+      },
       "text_raw": "FLOOR STRUCTURE (VARIES)",
       "type": "PDFTEXT",
       "x": 673.0,
@@ -3655,7 +3754,9 @@
       "fingerprint": "sha1:1467d523cad44656d6712789d1458a25de7eccf4",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "FOR CONSTRUCTION",
       "type": "PDFTEXT",
       "x": 93.1,
@@ -3675,7 +3776,9 @@
       "fingerprint": "sha1:e79faa8287c96e1c94d7ba1f60706d0623c56cfb",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "tile"
+      },
       "text_raw": "SELECTED TILE",
       "type": "PDFTEXT",
       "x": 742.7,
@@ -3755,7 +3858,9 @@
       "fingerprint": "sha1:b479e92e574f139d600d7ea950a780be765b7a2f",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "jamb"
+      },
       "text_raw": "10MM QUIRK AT DOOR JAMB",
       "type": "PDFTEXT",
       "x": 524.9,
@@ -3895,7 +4000,10 @@
       "fingerprint": "sha1:69e3d94c88a0af4981a19862b9c9910dcb58fae7",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel",
+        "part": "floor"
+      },
       "text_raw": "(REFER SCHEDULE OF FLOOR FINISHES FOR PRODUCT)",
       "type": "PDFTEXT",
       "x": 802.3,
@@ -3975,7 +4083,9 @@
       "fingerprint": "sha1:f14a112b7e20584c1718211a75b5af4ac6cebe12",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "ON SUBSTRATE (FINISHED",
       "type": "PDFTEXT",
       "x": 164.7,
@@ -4115,7 +4225,10 @@
       "fingerprint": "sha1:eed8aa4773450ee0f0cf4cb02ad259ff46be8988",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "glass",
+        "part": "wall"
+      },
       "text_raw": "GLASS BLOCK WALL",
       "type": "PDFTEXT",
       "x": 383.0,
@@ -4195,7 +4308,9 @@
       "fingerprint": "sha1:764b084ac0f223b500d9e2de44ff597fc42f57c6",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "door"
+      },
       "text_raw": "APARTMENT DOOR",
       "type": "PDFTEXT",
       "x": 71.8,
@@ -4315,7 +4430,9 @@
       "fingerprint": "sha1:2fe98d28f9fba5b2b6472b9d0f8ac81a2cfe7f12",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 504.1,
@@ -4515,7 +4632,10 @@
       "fingerprint": "sha1:caa28110adf708ec209b346321cf23b52c48fedf",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel",
+        "part": "floor"
+      },
       "text_raw": "(REFER SCHEDULE OF FLOOR FINISHES FOR PRODUCT)",
       "type": "PDFTEXT",
       "x": 802.3,
@@ -4595,7 +4715,10 @@
       "fingerprint": "sha1:9d94b9bcdbdadc301f31dadfea91a0d95da0757f",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel",
+        "part": "floor"
+      },
       "text_raw": "(REFER SCHEDULE OF FLOOR FINISHES FOR PRODUCT)",
       "type": "PDFTEXT",
       "x": 802.3,
@@ -4615,7 +4738,9 @@
       "fingerprint": "sha1:896c22b1c085345e3681fd8252cbde1e5de63a1d",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "TYPICAL WET AREA WALL",
       "type": "PDFTEXT",
       "x": 526.7,
@@ -4635,7 +4760,10 @@
       "fingerprint": "sha1:69f207feb5ee4a334bdb8ad6327d20accc5396a9",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "timber",
+        "part": "entry"
+      },
       "text_raw": "TYPICAL TIMBER ENTRY DOOR.",
       "type": "PDFTEXT",
       "x": 40.0,
@@ -4675,7 +4803,9 @@
       "fingerprint": "sha1:2283a38c9f30ada601cf4dbc78e6ccf0070191b1",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 267.2,
@@ -4735,7 +4865,9 @@
       "fingerprint": "sha1:1eecb6a37e63e04c7798689993a4ffd2ffc96bea",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 542.0,
@@ -4815,7 +4947,10 @@
       "fingerprint": "sha1:0a5f617b922c824c1f5adfc8d0e39288d073b2b7",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "plasterboard",
+        "part": "wall"
+      },
       "text_raw": "WALL WITH PLASTER + PAINT FINISH",
       "type": "PDFTEXT",
       "x": 753.1,
@@ -4855,7 +4990,10 @@
       "fingerprint": "sha1:2721d8f702227d8edc4e0fafb74e1fece1b1c2a3",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel",
+        "part": "floor"
+      },
       "text_raw": "FLOOR BUILDUP (STRUCTURE AND SETDOWN VARIES)",
       "type": "PDFTEXT",
       "x": 595.8,
@@ -4875,7 +5013,9 @@
       "fingerprint": "sha1:cacfa3cc7424146beebe2cd949107836ebc0bfa9",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 436.0,
@@ -4915,7 +5055,9 @@
       "fingerprint": "sha1:a0480de21870db6cde45709f15f2b2daa95420ef",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "door"
+      },
       "text_raw": "UNDER DOOR",
       "type": "PDFTEXT",
       "x": 74.3,
@@ -4935,7 +5077,9 @@
       "fingerprint": "sha1:47125b2efa6a3368169c0891cfd682126ad7b94d",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOOR FINISHES",
       "type": "PDFTEXT",
       "x": 733.8,
@@ -5055,7 +5199,9 @@
       "fingerprint": "sha1:d77b3fd88abd2fa96edf67b0e7b21e67e70f1aa3",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOOR WASTE 1",
       "type": "PDFTEXT",
       "x": 743.8,
@@ -5075,7 +5221,9 @@
       "fingerprint": "sha1:52fd545f2f232810a64a4b4bf0fcd30640ab4255",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "tile"
+      },
       "text_raw": "WATERPROOF TREATMENT BEHIND TILES",
       "type": "PDFTEXT",
       "x": 686.5,
@@ -5115,7 +5263,10 @@
       "fingerprint": "sha1:f8aa51e8990ca787440536a82da7fc885dcbf20d",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel",
+        "part": "wall"
+      },
       "text_raw": "WALL STRUCTURE (VARIES)",
       "type": "PDFTEXT",
       "x": 526.0,
@@ -5135,7 +5286,10 @@
       "fingerprint": "sha1:5f2ab9beeed2923ea0f7d6110c6ba4221eeed006",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "plasterboard",
+        "part": "plasterboard"
+      },
       "text_raw": "PLASTERBOARD TO INTERNAL TIMBER",
       "type": "PDFTEXT",
       "x": 597.1,
@@ -5195,7 +5349,10 @@
       "fingerprint": "sha1:2d8ef62abaf9faf21681749742c5fb250c663e8c",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "concrete",
+        "part": "slab"
+      },
       "text_raw": "CONCRETE SLAB",
       "type": "PDFTEXT",
       "x": 46.8,
@@ -5215,7 +5372,9 @@
       "fingerprint": "sha1:c4301cbbae970f26f1383de10eb01c85883970b3",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 260.2,
@@ -5235,7 +5394,9 @@
       "fingerprint": "sha1:570c69beeff5f3e781d4a8ed971664e1b30ee31e",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS FINISHES",
       "type": "PDFTEXT",
       "x": 733.6,
@@ -5295,7 +5456,9 @@
       "fingerprint": "sha1:6afa95ae9535a679c657b4b6445390c838583421",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "jamb"
+      },
       "text_raw": "(REFER TO TYPICAL SQUARE SET JAMB DETAIL)",
       "type": "PDFTEXT",
       "x": 783.4,
@@ -5355,7 +5518,9 @@
       "fingerprint": "sha1:1fd5190d39492869b8e5d6c82db4003b4a1bccd4",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "architrave"
+      },
       "text_raw": "ARCHITRAVE TYPE 2",
       "type": "PDFTEXT",
       "x": 745.8,
@@ -5395,7 +5560,9 @@
       "fingerprint": "sha1:b02c2c8de9aed5c1fa9b3388a7ee2aaf1a677fef",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "SUB",
       "type": "PDFTEXT",
       "x": 230.0,
@@ -5475,7 +5642,9 @@
       "fingerprint": "sha1:8f6749b10ef729301153a7747d4b66e13c73d7b3",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "SUB DECK DRAINAGE",
       "type": "PDFTEXT",
       "x": 512.7,
@@ -5515,7 +5684,9 @@
       "fingerprint": "sha1:a2daf6b6b30e18323e547913b915a6cf828063c9",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "slab"
+      },
       "text_raw": "NOM. 50MM SLAB",
       "type": "PDFTEXT",
       "x": 231.3,
@@ -5535,7 +5706,9 @@
       "fingerprint": "sha1:4c9261357d6c214e1d74d0012b0d0f5ab4f98282",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "skirting"
+      },
       "text_raw": "SKIRTING BOARD, FIXED OVER",
       "type": "PDFTEXT",
       "x": 600.7,
@@ -5755,7 +5928,9 @@
       "fingerprint": "sha1:1a865e42336e7250e3a9dd0d7ea4eaed1cadb9a3",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 393.8,
@@ -5775,7 +5950,9 @@
       "fingerprint": "sha1:7aedac02ac9fae2f745bbf78bcdfc16ef59e0e7c",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 353.4,
@@ -5915,7 +6092,9 @@
       "fingerprint": "sha1:e9dc5d243219cd73a92d8b5f718ee6ee41be7b73",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "timber"
+      },
       "text_raw": "NOMINALLY AS TIMBER",
       "type": "PDFTEXT",
       "x": 604.0,
@@ -5995,7 +6174,10 @@
       "fingerprint": "sha1:9c395550dcb177b8b27d56da7ef3ae8e008a5d2b",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "timber",
+        "part": "reveal"
+      },
       "text_raw": "TIMBER REVEAL",
       "type": "PDFTEXT",
       "x": 51.8,
@@ -6195,7 +6377,9 @@
       "fingerprint": "sha1:9d9083118c8b07fffb868e2e802724f8a101b9c9",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 492.9,
@@ -6215,7 +6399,9 @@
       "fingerprint": "sha1:a38d9530282816e6f0a783c84e5559e0c879e1e1",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "(REFER SCHEDULE FOR PRODUCT)",
       "type": "PDFTEXT",
       "x": 787.3,
@@ -6235,7 +6421,9 @@
       "fingerprint": "sha1:07d977ea7133f5822d5bb3a14c541fb0ae35eb49",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "project specification and any instructions",
       "type": "PDFTEXT",
       "x": 33.8,
@@ -6255,7 +6443,9 @@
       "fingerprint": "sha1:8dd2267c04491e19efeb67920f63759566750d4c",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "drain"
+      },
       "text_raw": "1:100 FALL TO STRIP DRAIN",
       "type": "PDFTEXT",
       "x": 783.6,
@@ -6475,7 +6665,9 @@
       "fingerprint": "sha1:49aa2be42e3510abae67dd5bce694543c2f57d89",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "door"
+      },
       "text_raw": "DOOR",
       "type": "PDFTEXT",
       "x": 585.7,
@@ -6495,7 +6687,9 @@
       "fingerprint": "sha1:fd8f1a0b702b35ee123d3a2729dcd440a6055793",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 324.7,
@@ -6655,7 +6849,9 @@
       "fingerprint": "sha1:79473f8f82bea482829e0e5c9c6685a0f11245c2",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOOR WASTE 2",
       "type": "PDFTEXT",
       "x": 743.7,
@@ -6735,7 +6931,9 @@
       "fingerprint": "sha1:7ac7b19575d1cd18b9338487728460a32c8f4e70",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 488.6,
@@ -6775,7 +6973,9 @@
       "fingerprint": "sha1:fcf248f87e13840fb627c6acbf81051e729b12b6",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "door"
+      },
       "text_raw": "UNDER DOOR",
       "type": "PDFTEXT",
       "x": 599.3,
@@ -6975,7 +7175,9 @@
       "fingerprint": "sha1:7783d970b43fe525a52fadc926f6c435b8ca7890",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "TAKEN TO FLOOR",
       "type": "PDFTEXT",
       "x": 675.4,
@@ -6995,7 +7197,9 @@
       "fingerprint": "sha1:c5504e46e8e711194694326a2044a588c4fa90c7",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "door"
+      },
       "text_raw": "DOOR. REFER  A.501 FOR DETAILS",
       "type": "PDFTEXT",
       "x": 226.3,
@@ -7275,7 +7479,9 @@
       "fingerprint": "sha1:db60b53c3fae0719185aeb3144db1a6a2e280dce",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "architrave"
+      },
       "text_raw": "ARCHITRAVE TYPE 1",
       "type": "PDFTEXT",
       "x": 745.8,
@@ -7315,7 +7521,10 @@
       "fingerprint": "sha1:fc393d4d1c6465b67793b9d398e148d1a8abe759",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel",
+        "part": "floor"
+      },
       "text_raw": "FLOOR SUBSTRATES",
       "type": "PDFTEXT",
       "x": 735.3,
@@ -7375,7 +7584,9 @@
       "fingerprint": "sha1:27f1f4d79f35d8af9313b736ca3eab71e10a9ac8",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "POWDERCOATED STEEL",
       "type": "PDFTEXT",
       "x": 527.4,
@@ -7395,7 +7606,10 @@
       "fingerprint": "sha1:5e8f1810dbf795c47a1cb5bf8743f61e68510b1e",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "timber",
+        "part": "reveal"
+      },
       "text_raw": "TIMBER REVEAL",
       "type": "PDFTEXT",
       "x": 47.5,
@@ -7415,7 +7629,9 @@
       "fingerprint": "sha1:d94e965b85f3a92f2957e115c0f89604ca2fcbe2",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "SUBSTRAE",
       "type": "PDFTEXT",
       "x": 548.9,
@@ -7455,7 +7671,9 @@
       "fingerprint": "sha1:4336b75d39e0b4024b10d3c252cebfbb1054d3ab",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "threshold"
+      },
       "text_raw": "RETAIL/ENTRY THRESHOLD",
       "type": "PDFTEXT",
       "x": 100.9,
@@ -7515,7 +7733,9 @@
       "fingerprint": "sha1:1363ea4b42d727c11e0382c701cc0a0299dad4fa",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "SUB DECK DRAINAGE",
       "type": "PDFTEXT",
       "x": 568.1,
@@ -7675,7 +7895,9 @@
       "fingerprint": "sha1:e2a60d28bf182c0ff18cebab922fc91233e152ec",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "door"
+      },
       "text_raw": "APARTMENT DOOR",
       "type": "PDFTEXT",
       "x": 596.9,
@@ -7735,7 +7957,10 @@
       "fingerprint": "sha1:2efed08a2813b1fe0f337d0a37a8ee7ee850cfc7",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "plasterboard",
+        "part": "plasterboard"
+      },
       "text_raw": "PLASTERBOARD TO INTERNAL",
       "type": "PDFTEXT",
       "x": 621.5,
@@ -7775,7 +8000,10 @@
       "fingerprint": "sha1:05d7e43d37a152607e79b8384df702a629cc6881",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "concrete",
+        "part": "slab"
+      },
       "text_raw": "CONCRETE SLAB",
       "type": "PDFTEXT",
       "x": 46.8,
@@ -7855,7 +8083,9 @@
       "fingerprint": "sha1:7ae5735f3662cfc11737ea11e6452f1cbbd5851f",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 334.8,
@@ -7875,7 +8105,9 @@
       "fingerprint": "sha1:f467d3beda0a7c384c06ddeac7a9dcbbdd0b3a7b",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 336.3,
@@ -7895,7 +8127,9 @@
       "fingerprint": "sha1:5475eafb8dcfc01bbe70ac69c6daf770b4b3de9f",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FINISHES PLAN - BASEMENT + GROUND FLOOR",
       "type": "PDFTEXT",
       "x": 751.2,
@@ -8035,7 +8269,9 @@
       "fingerprint": "sha1:e9f83b83cb6f3b974dae10f8531ee99689868129",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "aluminium"
+      },
       "text_raw": "CAV, ALUMINIUM",
       "type": "PDFTEXT",
       "x": 598.7,
@@ -8055,7 +8291,9 @@
       "fingerprint": "sha1:dfcdf281e1ba3488a2105beaf912cb4951a31728",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 300.6,
@@ -8175,7 +8413,9 @@
       "fingerprint": "sha1:01d758cd5f683265575c31e3bfddfc45b3c58a7d",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "membrane"
+      },
       "text_raw": "MEMBRANE",
       "type": "PDFTEXT",
       "x": 196.6,
@@ -8195,7 +8435,9 @@
       "fingerprint": "sha1:4a45c5f31eb1e255dbe956d9dd0a74ba25005e56",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "timber"
+      },
       "text_raw": "UNDERSIDE OF TIMBER",
       "type": "PDFTEXT",
       "x": 151.4,
@@ -8215,7 +8457,9 @@
       "fingerprint": "sha1:0a4818f6a6ba348eeab43fc971b0c950e98448a2",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 364.4,
@@ -8375,7 +8619,9 @@
       "fingerprint": "sha1:2e42832df7b766c8e4d2db771075e35e978936b8",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "reveal"
+      },
       "text_raw": "REVEAL TYPICAL",
       "type": "PDFTEXT",
       "x": 597.4,
@@ -8395,7 +8641,9 @@
       "fingerprint": "sha1:cbd3f9995d32760e786748d1cb361d9cf1abce2e",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "PAINTED WALL FINISH,",
       "type": "PDFTEXT",
       "x": 625.3,
@@ -8495,7 +8743,9 @@
       "fingerprint": "sha1:ee3e9c57894087d072826ead0ea39290cc55b700",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "TYPICAL WET AREA WALL TILE",
       "type": "PDFTEXT",
       "x": 524.9,
@@ -8515,7 +8765,9 @@
       "fingerprint": "sha1:0ba45654a8ca899fcb188af134e8e996608890f5",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "SCHEDULES FOR PRODUCT)",
       "type": "PDFTEXT",
       "x": 789.2,
@@ -8555,7 +8807,9 @@
       "fingerprint": "sha1:5ec9a6254e4e16415479308f9f07039eace122fb",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "concrete"
+      },
       "text_raw": "STRUCTURAL CONCRETE BLOCK",
       "type": "PDFTEXT",
       "x": 751.8,
@@ -8615,7 +8869,10 @@
       "fingerprint": "sha1:5994d37afecd4c38f0b2e767089ea67f3e90d596",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel",
+        "part": "floor"
+      },
       "text_raw": "(REFER SCHEDULE OF FLOOR FINISHES FOR PRODUCT)",
       "type": "PDFTEXT",
       "x": 802.3,
@@ -8675,7 +8932,9 @@
       "fingerprint": "sha1:c3308f19266d223809bd3d14eba4bb0c7b0ad056",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "SUB",
       "type": "PDFTEXT",
       "x": 532.2,
@@ -8695,7 +8954,10 @@
       "fingerprint": "sha1:bc652f728cc80649184304ee8267eeae358c1972",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel",
+        "part": "floor"
+      },
       "text_raw": "(REFER SCHEDULE OF FLOOR FINISHES FOR PRODUCT)",
       "type": "PDFTEXT",
       "x": 802.3,
@@ -8875,7 +9137,9 @@
       "fingerprint": "sha1:2f9a09bfa1ab9fd4f893668a01aa99208d4188f5",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "membrane"
+      },
       "text_raw": "MEMBRANE",
       "type": "PDFTEXT",
       "x": 683.5,
@@ -8975,7 +9239,12 @@
       "fingerprint": "sha1:789ad59383a180c7666dc02f6baa033c70b20006",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel",
+        "part": "gutter",
+        "unit": "mm",
+        "value": 406
+      },
       "text_raw": "BALCONY SUB DECK BOX GUTTER (REFER A.406 FOR DETAIL)",
       "type": "PDFTEXT",
       "x": 765.9,
@@ -9235,7 +9504,11 @@
       "fingerprint": "sha1:fea798760ccb9eda39436e5cb2e1b8b502ba41d0",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel",
+        "unit": "mm",
+        "value": 17
+      },
       "text_raw": "FOR CONSTRUCTION - 17/12/19",
       "type": "PDFTEXT",
       "x": 754.2,
@@ -9255,7 +9528,10 @@
       "fingerprint": "sha1:2aabda7e414a591a84692bb76ed40d4c10e46472",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel",
+        "part": "floor"
+      },
       "text_raw": "FLOOR STRUCTURE (CLT",
       "type": "PDFTEXT",
       "x": 574.4,
@@ -9315,7 +9591,9 @@
       "fingerprint": "sha1:78ab49034be93c7093c848e61597f52d789f289f",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "SETDOWN IN FLOOR",
       "type": "PDFTEXT",
       "x": 689.2,
@@ -9335,7 +9613,9 @@
       "fingerprint": "sha1:065391d62de60d86eeffa01aef9864766d06fce3",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "skirting"
+      },
       "text_raw": "SKIRTING TYPE 3",
       "type": "PDFTEXT",
       "x": 620.4,
@@ -9375,7 +9655,9 @@
       "fingerprint": "sha1:c6f8d4f554c4621dc6e5e15561565fec3842809d",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 410.2,
@@ -9415,7 +9697,9 @@
       "fingerprint": "sha1:d1f3b36147ad97beab4053bce792a99c11cfc49d",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "TYPICAL WET AREA FLOOR TILE ON",
       "type": "PDFTEXT",
       "x": 683.9,
@@ -9435,7 +9719,9 @@
       "fingerprint": "sha1:acdfa1a2a139fda411dbeb121483325d365e153c",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "- REFER TO FLOOR PLAN FOR FURTHER FLOOR FINISH DETAILS",
       "type": "PDFTEXT",
       "x": 756.0,
@@ -9455,7 +9741,9 @@
       "fingerprint": "sha1:ed35ea910b23081c514d334893d3425cde68b3b3",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "threshold"
+      },
       "text_raw": "SLAB AT THRESHOLD",
       "type": "PDFTEXT",
       "x": 44.8,
@@ -9515,7 +9803,9 @@
       "fingerprint": "sha1:8a8ad2ab98e0145be067b7884e95af699159ddfc",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 257.2,
@@ -9595,7 +9885,9 @@
       "fingerprint": "sha1:471488e193dd44131e9cb227580948a18673153e",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "timber"
+      },
       "text_raw": "TIMBER FLOORBOARD)",
       "type": "PDFTEXT",
       "x": 595.1,
@@ -9635,7 +9927,10 @@
       "fingerprint": "sha1:3cc8a5a0d370ef5acd3f8cc07c258b09729417fd",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel",
+        "part": "tile"
+      },
       "text_raw": "TERRAZZO TILE ON SUBSTRATE",
       "type": "PDFTEXT",
       "x": 674.0,
@@ -9715,7 +10010,9 @@
       "fingerprint": "sha1:9f39cb30f9e4eeb2cf9b47eafd095d07a4acf2e8",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 240.6,
@@ -9875,7 +10172,10 @@
       "fingerprint": "sha1:46d1f104cf17393bf7a200a8c839dedbb9cc2e7a",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "timber",
+        "part": "door"
+      },
       "text_raw": "TIMBER DOOR",
       "type": "PDFTEXT",
       "x": 150.5,
@@ -9915,7 +10215,9 @@
       "fingerprint": "sha1:47edcd4483dfc4b2b250e301e23b4fdfbab937f6",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 537.8,
@@ -9995,7 +10297,9 @@
       "fingerprint": "sha1:f835c75153c8f1934d522bdedf2b45a11c882f6f",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "tile"
+      },
       "text_raw": "WATERPROOF TREATMENT BEHIND TILES",
       "type": "PDFTEXT",
       "x": 564.2,
@@ -10155,7 +10459,9 @@
       "fingerprint": "sha1:d77320e314e8db7414441132b6486c5b92e380e1",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "(REFER SCHEDULE FOR PRODUCT)",
       "type": "PDFTEXT",
       "x": 787.3,
@@ -10215,7 +10521,9 @@
       "fingerprint": "sha1:33339da2d1feb36626544b914c2ddc5d4c1c4d50",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "reveal"
+      },
       "text_raw": "REVEAL TYPICAL",
       "type": "PDFTEXT",
       "x": 73.2,
@@ -10295,7 +10603,9 @@
       "fingerprint": "sha1:7459a253746e7a0b8defea8ea76767229be605e9",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "skirting"
+      },
       "text_raw": "SKIRTING TYPE 1",
       "type": "PDFTEXT",
       "x": 743.7,
@@ -10595,7 +10905,10 @@
       "fingerprint": "sha1:238849635bce85c1bcc8ebb67535aac49a378226",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "concrete",
+        "part": "slab"
+      },
       "text_raw": "BURNISHED CONCRETE SLAB",
       "type": "PDFTEXT",
       "x": 750.0,
@@ -10695,7 +11008,9 @@
       "fingerprint": "sha1:5a80b48f010c04e7ac3d00dc104f948aca504c69",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "FRAMED WALLS",
       "type": "PDFTEXT",
       "x": 607.8,
@@ -10715,7 +11030,9 @@
       "fingerprint": "sha1:46d79bfbb3e5f925bd173ca89460a44ea4515247",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 290.6,
@@ -10735,7 +11052,9 @@
       "fingerprint": "sha1:22d05f9ea2acd88ad2b2a5a12871a7fd03c8c45a",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 229.5,
@@ -10775,7 +11094,10 @@
       "fingerprint": "sha1:172619466cd41ec32ee2b464d754dd9ec494c160",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "timber",
+        "part": "wall"
+      },
       "text_raw": "TIMBER FRAMED WALLS",
       "type": "PDFTEXT",
       "x": 625.6,
@@ -10875,7 +11197,10 @@
       "fingerprint": "sha1:f219ee20a1f0e3dab147a7ce45bf97b46459eaca",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "timber",
+        "part": "lining"
+      },
       "text_raw": "INTERNAL  TIMBER LINING",
       "type": "PDFTEXT",
       "x": 748.2,
@@ -10895,7 +11220,9 @@
       "fingerprint": "sha1:8884f82c5a261bf2823bbfd3e7f9c567e181fd79",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "threshold"
+      },
       "text_raw": "FOYER THRESHOLD",
       "type": "PDFTEXT",
       "x": 105.5,
@@ -10915,7 +11242,10 @@
       "fingerprint": "sha1:d4ae0b825ad0fff68c90e0c87a789e6f36badf03",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "timber",
+        "part": "wall"
+      },
       "text_raw": "TIMBER FRAMED WALLS",
       "type": "PDFTEXT",
       "x": 624.6,
@@ -11115,7 +11445,9 @@
       "fingerprint": "sha1:b460ddc4b7c4946b76ae57d0e19220b512cdedb9",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "architrave"
+      },
       "text_raw": "ARCHITRAVES",
       "type": "PDFTEXT",
       "x": 732.8,
@@ -11175,7 +11507,9 @@
       "fingerprint": "sha1:10f56e9cfd8626bb404bd4913b6172a3aca721a4",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 401.7,
@@ -11195,7 +11529,9 @@
       "fingerprint": "sha1:678711bcda001d46d7f4458e838f777cd91761c4",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 538.8,
@@ -11255,7 +11591,9 @@
       "fingerprint": "sha1:8a7fa3ae2ed7d7579928adfc24c28fcf03dd4ed0",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 526.4,
@@ -11295,7 +11633,9 @@
       "fingerprint": "sha1:b33a72cf93b3103d2de7ae72ee92f1410b58ce6e",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALL TYPE",
       "type": "PDFTEXT",
       "x": 641.6,
@@ -11355,7 +11695,9 @@
       "fingerprint": "sha1:3e2001a1e2c1e6e38c1ab7b665bd359a9080010d",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "TYPICAL WET AREA WALL TILE",
       "type": "PDFTEXT",
       "x": 622.4,
@@ -11415,7 +11757,9 @@
       "fingerprint": "sha1:c03a2282847626261737b6acb70f00a61e6c7560",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "(REFER SCHEDULE FOR PRODUCT DETAIL)",
       "type": "PDFTEXT",
       "x": 796.0,
@@ -11535,7 +11879,9 @@
       "fingerprint": "sha1:cc3c42cb2494d987295e59758a9ef19de7538adf",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "STEEL STOPPING",
       "type": "PDFTEXT",
       "x": 531.5,
@@ -11635,7 +11981,9 @@
       "fingerprint": "sha1:090864a2243f9ff51549db8855ded046a19fa341",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "timber"
+      },
       "text_raw": "TIMBER FLOORBOARD)",
       "type": "PDFTEXT",
       "x": 191.0,
@@ -11655,7 +12003,9 @@
       "fingerprint": "sha1:c760005e0b735d6b9412910921a5c9597c8dd947",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "TYPICAL WET AREA FLOOR TILE ON",
       "type": "PDFTEXT",
       "x": 561.8,
@@ -11735,7 +12085,9 @@
       "fingerprint": "sha1:3de88783165120f174f004f77acb55d68d8bf8c5",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "threshold"
+      },
       "text_raw": "RETAIL/ENTRY THRESHOLD",
       "type": "PDFTEXT",
       "x": 100.9,
@@ -11755,7 +12107,9 @@
       "fingerprint": "sha1:ca5631094812d732a833ee9e461fdb698751bfb3",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "PUBLIC CORRIDORS",
       "type": "PDFTEXT",
       "x": 736.8,
@@ -11815,7 +12169,10 @@
       "fingerprint": "sha1:39fe3191afa9cc8974eb4785aa8b3fb6d7d0e113",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "timber",
+        "part": "door"
+      },
       "text_raw": "TIMBER DOOR",
       "type": "PDFTEXT",
       "x": 158.9,
@@ -12035,7 +12392,9 @@
       "fingerprint": "sha1:b9753a6d5c66edc0dddf69b6f8d98f21e69ae3ad",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "PAINTED WALL FINISH,",
       "type": "PDFTEXT",
       "x": 624.8,
@@ -12355,7 +12714,9 @@
       "fingerprint": "sha1:0c056153341cc61c48fd363276cd383ba3d522b2",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "outlet"
+      },
       "text_raw": "LOCATE OUTLET ADJACENT SHOWER",
       "type": "PDFTEXT",
       "x": 788.8,
@@ -12375,7 +12736,9 @@
       "fingerprint": "sha1:4235b6a869661a33ba8b0077db00e75b3428c0e9",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 327.8,
@@ -12435,7 +12798,9 @@
       "fingerprint": "sha1:f85c55ef97cbc5c58f29250ef49a4a07115465f1",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "SELECTED RECESSED FLOOR MAT",
       "type": "PDFTEXT",
       "x": 752.2,
@@ -12615,7 +12980,9 @@
       "fingerprint": "sha1:3a40e91a2ad67529d4d1db00b401b7c93493cb2a",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "SUB",
       "type": "PDFTEXT",
       "x": 524.1,
@@ -12635,7 +13002,10 @@
       "fingerprint": "sha1:88e161b595fafac84cc3ed3357a776f62a762042",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel",
+        "part": "floor"
+      },
       "text_raw": "(REFER SCHEDULE OF FLOOR FINISHES FOR PRODUCT)",
       "type": "PDFTEXT",
       "x": 802.3,
@@ -12755,7 +13125,9 @@
       "fingerprint": "sha1:e0fe885e47ff97dd7a6d058dada3afa4f0ee1478",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 375.4,
@@ -12775,7 +13147,9 @@
       "fingerprint": "sha1:12c288e6497a0b9249b3f588339a2e78cdd506cb",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALL TYPE",
       "type": "PDFTEXT",
       "x": 614.1,
@@ -13055,7 +13429,9 @@
       "fingerprint": "sha1:045fc7c605fac2dd064b3d5e0de901202b4c3deb",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "concrete"
+      },
       "text_raw": "CONC",
       "type": "PDFTEXT",
       "x": 728.1,
@@ -13155,7 +13531,9 @@
       "fingerprint": "sha1:e57132c961b67dfaf8e45d5e22c64c4d9185741d",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "BOTTOM OF WALL TILES",
       "type": "PDFTEXT",
       "x": 678.2,
@@ -13255,7 +13633,9 @@
       "fingerprint": "sha1:2c2ef0c3239b92f124dcc32fcbe555179aaa7d09",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 444.5,
@@ -13275,7 +13655,10 @@
       "fingerprint": "sha1:0fcf31cc19b34b55bff186ae89c9f8a9689082b3",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "plasterboard",
+        "part": "plasterboard"
+      },
       "text_raw": "PLASTERBOARD TO INTERNAL",
       "type": "PDFTEXT",
       "x": 622.5,
@@ -13355,7 +13738,9 @@
       "fingerprint": "sha1:a2e98d1a0902a80d4fa7ccca64d540a791634651",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "SUBSTRAE",
       "type": "PDFTEXT",
       "x": 671.0,
@@ -13475,7 +13860,10 @@
       "fingerprint": "sha1:592062c9278f95051ca78089e210b314a9253e36",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel",
+        "part": "tile"
+      },
       "text_raw": "TILE ON SUBSTRATE",
       "type": "PDFTEXT",
       "x": 529.7,
@@ -13515,7 +13903,9 @@
       "fingerprint": "sha1:eed5a93135cf8c0518aec6b1bbf198b44b1c4b3a",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "TYPICAL FLOOR FINISH (ENGINEERED",
       "type": "PDFTEXT",
       "x": 587.2,
@@ -13715,7 +14105,9 @@
       "fingerprint": "sha1:b1b5a5f563eb61aa3a81239613ff7e5f6fd000c0",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 358.3,
@@ -13915,7 +14307,9 @@
       "fingerprint": "sha1:c8ed0b6df1d0a517ed6479518d7304ed75d32b77",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 531.0,
@@ -13955,7 +14349,9 @@
       "fingerprint": "sha1:767d7ab2e248500cf258b6770f13dd5d1e29d228",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "concrete"
+      },
       "text_raw": "CONCRETE)",
       "type": "PDFTEXT",
       "x": 684.8,
@@ -13975,7 +14371,9 @@
       "fingerprint": "sha1:53714d9a4aab1e40367f73a5401d0514a16cc6e7",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "jamb"
+      },
       "text_raw": "TAKEN INTO JAMB",
       "type": "PDFTEXT",
       "x": 627.2,
@@ -14055,7 +14453,9 @@
       "fingerprint": "sha1:2bee79443797e706a07c5f117578bbee8e4ba5f0",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 447.8,
@@ -14255,7 +14655,9 @@
       "fingerprint": "sha1:49a1d21eef59e0ad9be95c831b6bbbbfb92112c5",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "jamb"
+      },
       "text_raw": "DOOR JAMB",
       "type": "PDFTEXT",
       "x": 533.2,
@@ -14295,7 +14697,9 @@
       "fingerprint": "sha1:c7d22a4fcfea35462f3fdbbcb629b7164f97a923",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "REFER SCHEDULES FOR SELECTED PRODUCT INFORMATION",
       "type": "PDFTEXT",
       "x": 755.9,
@@ -14315,7 +14719,9 @@
       "fingerprint": "sha1:4d62d554947aa84eb70e9871c073e7d7645e4cd8",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "FLOORING SUBSTRATE",
       "type": "PDFTEXT",
       "x": 586.8,
@@ -14335,7 +14741,9 @@
       "fingerprint": "sha1:a6e4807b2d71240b39d81828ee758bc3b7755c3f",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "jamb"
+      },
       "text_raw": "CSD JAMB LINER",
       "type": "PDFTEXT",
       "x": 598.2,
@@ -14395,7 +14803,9 @@
       "fingerprint": "sha1:5ebeb748643eb6a4481af86da22e5b7519277514",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 436.4,
@@ -14535,7 +14945,12 @@
       "fingerprint": "sha1:babda30950cb4728c0b4341336af3903f065a695",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "timber",
+        "part": "entry",
+        "unit": "mm",
+        "value": 6
+      },
       "text_raw": "G.06/W TIMBER PIVOT ENTRY",
       "type": "PDFTEXT",
       "x": 45.0,
@@ -14555,7 +14970,10 @@
       "fingerprint": "sha1:8ee701ed90960bd3fca41aecb32d30f93401e21b",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "timber",
+        "part": "wall"
+      },
       "text_raw": "TIMBER FRAMED WALLS",
       "type": "PDFTEXT",
       "x": 527.3,
@@ -14595,7 +15013,9 @@
       "fingerprint": "sha1:a71ee55bff28b755b708f90a9cb91b3a4385cb9d",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "(REFER SCHEDULE OF TACTILE INDICATORS FOR PRODUCT)",
       "type": "PDFTEXT",
       "x": 799.6,
@@ -14875,7 +15295,9 @@
       "fingerprint": "sha1:b11f95aa461e5582741ba7ab95b16e4e7d1edc89",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "STRUCTURE (CLT OR",
       "type": "PDFTEXT",
       "x": 688.9,
@@ -15055,7 +15477,9 @@
       "fingerprint": "sha1:1192534c9f02272af43307fbaf74a3ecd7ba912f",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 527.4,
@@ -15095,7 +15519,9 @@
       "fingerprint": "sha1:dd28a8b95f2a118b015872a404a861eee8098d17",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "skirting"
+      },
       "text_raw": "SKIRTING TYPE 1 + 2",
       "type": "PDFTEXT",
       "x": 628.6,
@@ -15115,7 +15541,9 @@
       "fingerprint": "sha1:888488392981809e591f5d408d4afc8e6f296de0",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "skirting"
+      },
       "text_raw": "- FOYER SKIRTING",
       "type": "PDFTEXT",
       "x": 769.1,
@@ -15155,7 +15583,9 @@
       "fingerprint": "sha1:8bb9f2fbfa5c61f287633650fbb2d51c50f6a276",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "reveal"
+      },
       "text_raw": "REVEAL TYPICAL",
       "type": "PDFTEXT",
       "x": 598.1,
@@ -15275,7 +15705,9 @@
       "fingerprint": "sha1:23affed2f157fd6d6769680babfbb0b8db0e61da",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOOR:",
       "type": "PDFTEXT",
       "x": 369.2,
@@ -15355,7 +15787,9 @@
       "fingerprint": "sha1:3e7d3995439162190150d228e6d31ee9472fd29b",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "jamb"
+      },
       "text_raw": "TAKEN INTO JAMB",
       "type": "PDFTEXT",
       "x": 530.0,
@@ -15415,7 +15849,9 @@
       "fingerprint": "sha1:7c94c9637c9ff0508bad7b91d9bcad0c6a8d6027",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "threshold"
+      },
       "text_raw": "FOYER/ENTRY THRESHOLD",
       "type": "PDFTEXT",
       "x": 113.8,
@@ -15535,7 +15971,10 @@
       "fingerprint": "sha1:71be8ad1a0e43da7a1f81ef9fe8b047d8f78cea3",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel",
+        "part": "jamb"
+      },
       "text_raw": "PRODUCT: EZY JAMB",
       "type": "PDFTEXT",
       "x": 746.5,
@@ -15715,7 +16154,9 @@
       "fingerprint": "sha1:985dc3a8ef1785b0b0cba613b5a1791711471dac",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 270.2,
@@ -15735,7 +16176,9 @@
       "fingerprint": "sha1:aa326829e0f8537f8aea58c7cd3993132a87fdbd",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "SUB DECK",
       "type": "PDFTEXT",
       "x": 197.4,
@@ -15795,7 +16238,9 @@
       "fingerprint": "sha1:3fe6344f4b5ad99b9c7c74058ee33b4fcb636a54",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "skirting"
+      },
       "text_raw": "SKIRTINGS",
       "type": "PDFTEXT",
       "x": 731.0,
@@ -15875,7 +16320,10 @@
       "fingerprint": "sha1:5275a7d12e97e20c0656ef3cc5edf2f7d3fafbea",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "timber",
+        "part": "reveal"
+      },
       "text_raw": "TIMBER REVEAL",
       "type": "PDFTEXT",
       "x": 47.5,
@@ -15935,7 +16383,9 @@
       "fingerprint": "sha1:814b629b27f2dbb30fc178caddce320b4f93405f",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALL",
       "type": "PDFTEXT",
       "x": 689.6,
@@ -16035,7 +16485,9 @@
       "fingerprint": "sha1:9bf76422bd8b08e931795f822b7a0b8eae2c0741",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "membrane"
+      },
       "text_raw": "MEMBRANE TO FALL. REFER",
       "type": "PDFTEXT",
       "x": 270.8,
@@ -16175,7 +16627,9 @@
       "fingerprint": "sha1:6be9ab9148b6d40c258985ab281185dfdfebf3aa",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 464.2,
@@ -16275,7 +16729,9 @@
       "fingerprint": "sha1:0564d54f22532121b3fd0533437cc10c6e107034",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "grate"
+      },
       "text_raw": "SELECTED METAL GRATE",
       "type": "PDFTEXT",
       "x": 747.9,
@@ -16315,7 +16771,9 @@
       "fingerprint": "sha1:e1ecdd93f11bb19ab076375006c53233017fdf3d",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "entry"
+      },
       "text_raw": "ENTRY MAT",
       "type": "PDFTEXT",
       "x": 277.6,
@@ -16375,7 +16833,10 @@
       "fingerprint": "sha1:3927492aec23a16751a6392fe53afd589e3c847b",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel",
+        "part": "wall"
+      },
       "text_raw": "WALL STRUCTURE (VARIES)",
       "type": "PDFTEXT",
       "x": 624.1,
@@ -16435,7 +16896,10 @@
       "fingerprint": "sha1:80f3001328e692c91f7c1af8bd9d9ffc971f2e77",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "concrete",
+        "part": "slab"
+      },
       "text_raw": "CONCRETE SLAB REFER ENG.",
       "type": "PDFTEXT",
       "x": 162.1,
@@ -16515,7 +16979,9 @@
       "fingerprint": "sha1:cab1e36ef55556985359b6d0f4bfaf8985b7eb5f",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "SUB DECK DRAINAGE",
       "type": "PDFTEXT",
       "x": 273.7,
@@ -16555,7 +17021,9 @@
       "fingerprint": "sha1:3c43f90fcce273fcbce283ab9230c38a8c4604bc",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 294.4,
@@ -16635,7 +17103,9 @@
       "fingerprint": "sha1:20e66de5052833163a7b51302255652cd5008b81",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOOR FINISH VARIES. SHOWN",
       "type": "PDFTEXT",
       "x": 600.3,
@@ -16655,7 +17125,9 @@
       "fingerprint": "sha1:8e70598eb172c28f11f15107bf025546f8e52663",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "plasterboard"
+      },
       "text_raw": "PLASTER STOPPING BEAD (HAIRLINE JOINT)",
       "type": "PDFTEXT",
       "x": 594.0,
@@ -16675,7 +17147,9 @@
       "fingerprint": "sha1:f8ebd321a0f3317bed1f8f96a3ca9d30789a8ca3",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "architrave"
+      },
       "text_raw": "ARCHITRAVE DETAIL",
       "type": "PDFTEXT",
       "x": 595.5,
@@ -16695,7 +17169,9 @@
       "fingerprint": "sha1:0a64d6d23a5ccdc60e9f61515d61f0487c38f92a",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 475.4,
@@ -16735,7 +17211,9 @@
       "fingerprint": "sha1:74a34dab7d2b2db9bab0cc1c1b11a0c611b6a359",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "skirting"
+      },
       "text_raw": "SKIRTING TYPE 2",
       "type": "PDFTEXT",
       "x": 743.7,
@@ -16755,7 +17233,9 @@
       "fingerprint": "sha1:44087087a1c6db2f75394fe7c9c7435b71d43924",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALL",
       "type": "PDFTEXT",
       "x": 592.3,
@@ -17015,7 +17495,11 @@
       "fingerprint": "sha1:4a3a96efb4d53dd29cc703f7eda48fb4b35c220a",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "plywood",
+        "unit": "mm",
+        "value": 2
+      },
       "text_raw": "PLY2",
       "type": "PDFTEXT",
       "x": 730.2,
@@ -17175,7 +17659,9 @@
       "fingerprint": "sha1:33e3ff32bba60039e119b42cd9ef196432ab4828",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "door"
+      },
       "text_raw": "DOOR. REFER  A.501 FOR DETAILS",
       "type": "PDFTEXT",
       "x": 42.6,
@@ -17235,7 +17721,12 @@
       "fingerprint": "sha1:44f760347b39a0a3b5e70c2069b947f960d4d70e",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "timber",
+        "part": "entry",
+        "unit": "mm",
+        "value": 6
+      },
       "text_raw": "G.06/W TIMBER PIVOT ENTRY",
       "type": "PDFTEXT",
       "x": 228.6,
@@ -17295,7 +17786,9 @@
       "fingerprint": "sha1:695fc254fd250f851aa3891088ece61d47388bcb",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "jamb"
+      },
       "text_raw": "(REFER TO TYPICAL  TILED JAMB DETAIL)",
       "type": "PDFTEXT",
       "x": 780.1,
@@ -17355,7 +17848,9 @@
       "fingerprint": "sha1:820b092326fe70fae6091e818de07026ae257eca",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "TYPICAL FLOOR FINISH (ENGINEERED",
       "type": "PDFTEXT",
       "x": 183.9,
@@ -17535,7 +18030,11 @@
       "fingerprint": "sha1:948b00cd466c5bfca0c6ae0019f37c64e2c9e1f7",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "plywood",
+        "unit": "mm",
+        "value": 2
+      },
       "text_raw": "PLY2",
       "type": "PDFTEXT",
       "x": 407.4,
@@ -17575,7 +18074,9 @@
       "fingerprint": "sha1:c39f31d081d0bd7ecc31714b0df1b11a825610ce",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "STEEL STOPPING",
       "type": "PDFTEXT",
       "x": 628.8,
@@ -17635,7 +18136,9 @@
       "fingerprint": "sha1:4ce81f1e344e95f7549394a560ef4268160f9e75",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 432.6,
@@ -17695,7 +18198,9 @@
       "fingerprint": "sha1:434236be71e3e1088b713ca037e25308f98a1237",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "concrete"
+      },
       "text_raw": "CONCRETE (STRUCTURAL SUBSTRATE)",
       "type": "PDFTEXT",
       "x": 754.3,
@@ -17935,7 +18440,9 @@
       "fingerprint": "sha1:a5cd7595988367653ae4f1459273b37aeaceb21d",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOOR STRIP",
       "type": "PDFTEXT",
       "x": 742.4,
@@ -17955,7 +18462,9 @@
       "fingerprint": "sha1:f8f2ca8f014730fbb826d54f297f03b5dff509a0",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "FLOOING SUBSTRATE",
       "type": "PDFTEXT",
       "x": 575.7,
@@ -17995,7 +18504,9 @@
       "fingerprint": "sha1:b1fd885d4eae94ee80957054467c3c875be57e83",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 321.2,
@@ -18215,7 +18726,9 @@
       "fingerprint": "sha1:7ee7ead05b34f8ef623ee148c6c6eda38e60e300",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 222.9,
@@ -18255,7 +18768,9 @@
       "fingerprint": "sha1:16935e590994ce2b8fddca47f520d2154123059e",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "door"
+      },
       "text_raw": "APARTMENT DOOR",
       "type": "PDFTEXT",
       "x": 596.1,
@@ -18315,7 +18830,9 @@
       "fingerprint": "sha1:55d9fb1896530037266b26d8d6b04b967df76f93",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "THROUGH WALL",
       "type": "PDFTEXT",
       "x": 683.2,
@@ -18335,7 +18852,10 @@
       "fingerprint": "sha1:3f396f64a6341d390f1fe467340188d5c4e922c6",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "plasterboard",
+        "part": "plasterboard"
+      },
       "text_raw": "PLASTERBOARD TO INTERNAL",
       "type": "PDFTEXT",
       "x": 524.2,
@@ -18355,7 +18875,9 @@
       "fingerprint": "sha1:cbca13d915adcf606730faae6558c2712c95cc80",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOOR:",
       "type": "PDFTEXT",
       "x": 351.4,
@@ -18415,7 +18937,9 @@
       "fingerprint": "sha1:3e880d96b7ddd31535562d18657f4ed0208c1aef",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "jamb"
+      },
       "text_raw": "TAKEN INTO JAMB",
       "type": "PDFTEXT",
       "x": 626.8,
@@ -18495,7 +19019,9 @@
       "fingerprint": "sha1:725339034d25527ce89bf931c93ff606dfffb326",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "tile"
+      },
       "text_raw": "SELECTED TERRAZZO STONE TILE",
       "type": "PDFTEXT",
       "x": 751.5,
@@ -18555,7 +19081,10 @@
       "fingerprint": "sha1:93b4735c7e4ce1c585f4a0327c57ae387df6b0aa",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "timber",
+        "part": "entry"
+      },
       "text_raw": "TYPICAL TIMBER ENTRY DOOR.",
       "type": "PDFTEXT",
       "x": 40.0,
@@ -18575,7 +19104,9 @@
       "fingerprint": "sha1:e0bfb078b5c74e7c89d7d5907a604e969f5f579a",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "tile"
+      },
       "text_raw": "TILE INSET",
       "type": "PDFTEXT",
       "x": 775.0,
@@ -18675,7 +19206,9 @@
       "fingerprint": "sha1:5c6ac809ff32767ea06b890b9cd6bdd3a41b632f",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "door"
+      },
       "text_raw": "DOOR",
       "type": "PDFTEXT",
       "x": 670.3,
@@ -18775,7 +19308,11 @@
       "fingerprint": "sha1:2041698ca9ee19641eb784f50c6d68910c7bf5fd",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "plywood",
+        "unit": "mm",
+        "value": 2
+      },
       "text_raw": "PLY2",
       "type": "PDFTEXT",
       "x": 379.7,
@@ -18795,7 +19332,9 @@
       "fingerprint": "sha1:d0b86885988d08778a613f356a9be8d4051ffbdb",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOOR TILE ON",
       "type": "PDFTEXT",
       "x": 686.5,
@@ -18955,7 +19494,9 @@
       "fingerprint": "sha1:7cbd2969f8267025ac7e1be1648a06d684c66f88",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 233.4,
@@ -19015,7 +19556,9 @@
       "fingerprint": "sha1:d1514c406418699e79203a518ccffb43f37dfe4a",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "plywood"
+      },
       "text_raw": "PLYWOOD SHEET",
       "type": "PDFTEXT",
       "x": 744.6,
@@ -19195,7 +19738,9 @@
       "fingerprint": "sha1:020bf414fe66c9449e9049d786b508f64e506031",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 425.6,
@@ -19215,7 +19760,9 @@
       "fingerprint": "sha1:97e535dcf7c6b9a66945b8aeca7364bae0783a49",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "ON SUBSTRATE",
       "type": "PDFTEXT",
       "x": 73.8,
@@ -19275,7 +19822,9 @@
       "fingerprint": "sha1:1bca75e6b995e8293edec1f44b872cb40e845923",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "steel"
+      },
       "text_raw": "ON SUBSTRATE",
       "type": "PDFTEXT",
       "x": 629.5,
@@ -19415,7 +19964,9 @@
       "fingerprint": "sha1:8e37e23ec8155c12b2bb5644d883878c72a0316e",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 285.9,
@@ -19495,7 +20046,9 @@
       "fingerprint": "sha1:99f39db4f604cf4b9142ff210e3a8da5a7b059ae",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 332.2,
@@ -19515,7 +20068,9 @@
       "fingerprint": "sha1:24478bedd37a914d86c99b8037f51a266323fed5",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "board"
+      },
       "text_raw": "OF BOARDS",
       "type": "PDFTEXT",
       "x": 196.4,
@@ -19695,7 +20250,9 @@
       "fingerprint": "sha1:de32af07865d91e4453bc7dc3481257bbb4f4b85",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 404.9,
@@ -19715,7 +20272,9 @@
       "fingerprint": "sha1:19e5026366cc34b49a7f30d410b5f7a973daec2b",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 289.9,
@@ -19755,7 +20314,9 @@
       "fingerprint": "sha1:94bf6658a80fe5b88645dbbdb0eeefc1b8b45d40",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "membrane"
+      },
       "text_raw": "MEMBRANE TO FALL. REFER",
       "type": "PDFTEXT",
       "x": 509.8,
@@ -19775,7 +20336,9 @@
       "fingerprint": "sha1:9ffc54b09366f66b6a85e676a0eef2569ac39fbb",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "tile"
+      },
       "text_raw": "SELECTED TERACOTTA  TILE",
       "type": "PDFTEXT",
       "x": 749.1,
@@ -19875,7 +20438,9 @@
       "fingerprint": "sha1:2c2203f379929a7efd16e9277268fb4eebf257d0",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "entry"
+      },
       "text_raw": "ENTRY MAT",
       "type": "PDFTEXT",
       "x": 239.3,
@@ -19935,7 +20500,9 @@
       "fingerprint": "sha1:dad5ac5eef945dfd85f451d38a18ebef006a1718",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "tile"
+      },
       "text_raw": "SCOPE + SCHEDULES FOR TILE",
       "type": "PDFTEXT",
       "x": 790.6,
@@ -20115,7 +20682,9 @@
       "fingerprint": "sha1:41f94a22453c0e4a333ad69839f6032f51f035d8",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "architrave"
+      },
       "text_raw": "TYPICAL ARCHITRAVE DETAILS",
       "type": "PDFTEXT",
       "x": 608.7,
@@ -20235,7 +20804,9 @@
       "fingerprint": "sha1:abe383e414ce950aea1be2767dba5fe82e1098e2",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "timber"
+      },
       "text_raw": "TIMBER FLOORBOARDS)",
       "type": "PDFTEXT",
       "x": 593.8,
@@ -20335,7 +20906,9 @@
       "fingerprint": "sha1:bc873c62913c1cd5d4a79cb2f3eae8ebd4ab14e7",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "wall"
+      },
       "text_raw": "WALLS:",
       "type": "PDFTEXT",
       "x": 331.2,
@@ -20435,7 +21008,9 @@
       "fingerprint": "sha1:c5762b31fd4f78c414b305fe4f7f17c3d57aa366",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOORS:",
       "type": "PDFTEXT",
       "x": 439.3,
@@ -20475,7 +21050,9 @@
       "fingerprint": "sha1:f8ccfed871845bafe8d76528a9b7ed0dbcd4032e",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "floor"
+      },
       "text_raw": "FLOOR:",
       "type": "PDFTEXT",
       "x": 397.1,
@@ -20515,7 +21092,9 @@
       "fingerprint": "sha1:aeb4f64afa63637c43cda1fcdc802a202916104c",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "part": "tile"
+      },
       "text_raw": "TERRACOTTA TILE",
       "type": "PDFTEXT",
       "x": 744.5,
