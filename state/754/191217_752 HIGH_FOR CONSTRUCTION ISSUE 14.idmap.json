@@ -16,7 +16,10 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "part": "jamb"
+        "material": "quirk",
+        "part": "jamb",
+        "unit": "mm",
+        "value": 10
       },
       "text_raw": "10MM QUIRK AT DOOR JAMB",
       "type": "PDFTEXT",
@@ -198,7 +201,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "part": "floor"
+        "part": "floor",
+        "qualifier": "typical"
       },
       "text_raw": "TYPICAL FLOOR FINISH (ENGINEERED",
       "type": "PDFTEXT",
@@ -340,7 +344,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "part": "slab"
+        "part": "slab",
+        "qualifier": "nominal"
       },
       "text_raw": "NOM. 50MM SLAB",
       "type": "PDFTEXT",
@@ -422,6 +427,7 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
+        "material": "tile",
         "part": "tile"
       },
       "text_raw": "SELECTED TERRAZZO STONE TILE",
@@ -568,7 +574,6 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "steel",
         "part": "floor"
       },
       "text_raw": "(REFER SCHEDULE OF FLOOR FINISHES FOR PRODUCT)",
@@ -831,6 +836,7 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
+        "material": "tile",
         "part": "tile"
       },
       "text_raw": "WATERPROOF TREATMENT BEHIND TILES",
@@ -975,7 +981,9 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "part": "floor"
+        "material": "tile",
+        "part": "floor",
+        "qualifier": "typical"
       },
       "text_raw": "TYPICAL WET AREA FLOOR TILE ON",
       "type": "PDFTEXT",
@@ -1181,7 +1189,7 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "steel",
+        "material": "tile",
         "part": "tile"
       },
       "text_raw": "TILE ON SUBSTRATE",
@@ -1448,6 +1456,7 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
+        "material": "tile",
         "part": "tile"
       },
       "text_raw": "TILE INSET",
@@ -1614,7 +1623,9 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "part": "wall"
+        "material": "tile",
+        "part": "wall",
+        "qualifier": "typical"
       },
       "text_raw": "TYPICAL WET AREA WALL TILE",
       "type": "PDFTEXT",
@@ -1655,7 +1666,9 @@
       "fingerprint": "sha1:8e776e97253d6451c8ef9d43f7b83ded5ae69cd5",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "qualifier": "varies"
+      },
       "text_raw": "INTERNAL/VARIES",
       "type": "PDFTEXT",
       "x": 549.2,
@@ -1775,9 +1788,7 @@
       "fingerprint": "sha1:306f967ed6f4328c375bb2822f591e981d45ee3d",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "SUBSTRAE",
       "type": "PDFTEXT",
       "x": 548.9,
@@ -1898,7 +1909,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "part": "floor"
+        "part": "floor",
+        "qualifier": "typical"
       },
       "text_raw": "TYPICAL FLOOR FINISH (ENGINEERED",
       "type": "PDFTEXT",
@@ -1983,9 +1995,7 @@
       "fingerprint": "sha1:5ed71347ebba72ea5a22f43a1e7793dda6f9f3e4",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "SUB",
       "type": "PDFTEXT",
       "x": 524.1,
@@ -2046,7 +2056,6 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "steel",
         "part": "floor"
       },
       "text_raw": "(REFER SCHEDULE OF FLOOR FINISHES FOR PRODUCT)",
@@ -2272,7 +2281,9 @@
       "fingerprint": "sha1:3c3d2612e44004fb9bf59c366900bbac5f5cb26d",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "qualifier": "varies"
+      },
       "text_raw": "VARIES",
       "type": "PDFTEXT",
       "x": 641.6,
@@ -2292,9 +2303,7 @@
       "fingerprint": "sha1:d34450671d806183125c775e6cd8c766826049be",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "ON SUBSTRATE",
       "type": "PDFTEXT",
       "x": 51.6,
@@ -2314,9 +2323,7 @@
       "fingerprint": "sha1:9c7af3289530dafc37cd3c031f2760d771af0768",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "ON SUBSTRATE",
       "type": "PDFTEXT",
       "x": 629.5,
@@ -2376,7 +2383,11 @@
       "fingerprint": "sha1:e362a1705857d46d401f40c9f11ec949d3a921cb",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "material": "quirk",
+        "unit": "mm",
+        "value": 10
+      },
       "text_raw": "10MM QUIRK AT",
       "type": "PDFTEXT",
       "x": 531.6,
@@ -2416,9 +2427,7 @@
       "fingerprint": "sha1:5681df7760e0190b9a2836f2e7f99403f69088b3",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "SCHEDULES FOR PRODUCT)",
       "type": "PDFTEXT",
       "x": 789.2,
@@ -2923,6 +2932,7 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
+        "material": "tile",
         "part": "tile"
       },
       "text_raw": "TERRACOTTA TILE",
@@ -2986,7 +2996,8 @@
       "layer": "PDF-P1",
       "parsed": {
         "material": "aluminium",
-        "part": "jamb"
+        "part": "jamb",
+        "qualifier": "min"
       },
       "text_raw": "JAMB, ALUMINIUM",
       "type": "PDFTEXT",
@@ -3112,9 +3123,7 @@
       "fingerprint": "sha1:89463177bb4adf9bb2e14c8e1f6bdad38192a7e1",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "SUB DECK DRAINAGE",
       "type": "PDFTEXT",
       "x": 568.1,
@@ -3747,7 +3756,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "part": "floor"
+        "part": "floor",
+        "qualifier": "typical"
       },
       "text_raw": "TYPICAL FLOOR FINISH (ENGINEERED",
       "type": "PDFTEXT",
@@ -3869,6 +3879,7 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
+        "material": "tile",
         "part": "drain"
       },
       "text_raw": "STRIP DRAIN WITH TILE INSET",
@@ -3891,8 +3902,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "steel",
-        "part": "wall"
+        "part": "wall",
+        "qualifier": "varies"
       },
       "text_raw": "WALL STRUCTURE (VARIES)",
       "type": "PDFTEXT",
@@ -4359,7 +4370,6 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "steel",
         "part": "floor"
       },
       "text_raw": "FLOOR SUBSTRATES",
@@ -4422,7 +4432,9 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "part": "floor"
+        "material": "tile",
+        "part": "floor",
+        "qualifier": "typical"
       },
       "text_raw": "TYPICAL WET AREA FLOOR TILE ON",
       "type": "PDFTEXT",
@@ -4444,6 +4456,7 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
+        "material": "tile",
         "part": "tile"
       },
       "text_raw": "SELECTED TILE",
@@ -4528,7 +4541,6 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "steel",
         "part": "floor"
       },
       "text_raw": "(REFER SCHEDULE OF FLOOR FINISHES FOR PRODUCT)",
@@ -4571,7 +4583,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "part": "reveal"
+        "part": "reveal",
+        "qualifier": "typical"
       },
       "text_raw": "REVEAL TYPICAL",
       "type": "PDFTEXT",
@@ -4717,7 +4730,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "part": "wall"
+        "part": "wall",
+        "qualifier": "typical"
       },
       "text_raw": "TYPICAL WET AREA WALL",
       "type": "PDFTEXT",
@@ -4780,9 +4794,7 @@
       "fingerprint": "sha1:5243ae0f38a7400a65fec6e1a134b3c3c4fb91a3",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "(REFER SCHEDULE FOR PRODUCT DETAIL)",
       "type": "PDFTEXT",
       "x": 796.0,
@@ -4823,7 +4835,9 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "part": "wall"
+        "material": "tile",
+        "part": "wall",
+        "qualifier": "typical"
       },
       "text_raw": "TYPICAL WET AREA WALL TILE",
       "type": "PDFTEXT",
@@ -4865,7 +4879,6 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "steel",
         "part": "jamb"
       },
       "text_raw": "PRODUCT: EZY JAMB",
@@ -5812,6 +5825,7 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
+        "material": "tile",
         "part": "tile"
       },
       "text_raw": "FOR TILE SELECTIONS)",
@@ -5956,7 +5970,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "timber"
+        "material": "timber",
+        "qualifier": "nominal"
       },
       "text_raw": "NOMINALLY AS TIMBER",
       "type": "PDFTEXT",
@@ -6038,7 +6053,7 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "steel",
+        "material": "tile",
         "part": "tile"
       },
       "text_raw": "TERRAZZO TILE ON SUBSTRATE",
@@ -6142,11 +6157,7 @@
       "fingerprint": "sha1:ec6eaae8841c593b1f8c60e75d26367b9a0017fd",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel",
-        "unit": "mm",
-        "value": 17
-      },
+      "parsed": null,
       "text_raw": "FOR CONSTRUCTION - 17/12/19",
       "type": "PDFTEXT",
       "x": 754.2,
@@ -6430,9 +6441,7 @@
       "fingerprint": "sha1:489abb3265e1b2a304ad6ee24270531d59ce42a2",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "SUB DECK DRAINAGE",
       "type": "PDFTEXT",
       "x": 273.7,
@@ -6452,9 +6461,7 @@
       "fingerprint": "sha1:ead04bba8d1a10147db48ef1260c1fb732293675",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "SUB DECK",
       "type": "PDFTEXT",
       "x": 197.4,
@@ -6515,6 +6522,7 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
+        "material": "tile",
         "part": "floor"
       },
       "text_raw": "FLOOR TILE ON",
@@ -6637,8 +6645,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "steel",
-        "part": "wall"
+        "part": "wall",
+        "qualifier": "varies"
       },
       "text_raw": "WALL STRUCTURE (VARIES)",
       "type": "PDFTEXT",
@@ -6700,6 +6708,7 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
+        "material": "tile",
         "part": "wall"
       },
       "text_raw": "BOTTOM OF WALL TILES",
@@ -6721,11 +6730,7 @@
       "fingerprint": "sha1:03be567e6b71d6fcaaccb2993f6979060bc3de66",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "plywood",
-        "unit": "mm",
-        "value": 2
-      },
+      "parsed": null,
       "text_raw": "PLY2",
       "type": "PDFTEXT",
       "x": 379.7,
@@ -7171,9 +7176,7 @@
       "fingerprint": "sha1:e924d6ccb7225d5c8b570c7ba333a29b25bef460",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "PUBLIC CORRIDORS",
       "type": "PDFTEXT",
       "x": 736.8,
@@ -7804,9 +7807,7 @@
       "fingerprint": "sha1:c210186e22f4a7297d376fea38c6a91890c0d563",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "(REFER SCHEDULES FOR PRODUCT)",
       "type": "PDFTEXT",
       "x": 792.6,
@@ -7886,7 +7887,9 @@
       "fingerprint": "sha1:9bc9aede7545337830b595fdbec8810b475be71a",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "qualifier": "varies"
+      },
       "text_raw": "VARIES",
       "type": "PDFTEXT",
       "x": 614.2,
@@ -8214,9 +8217,7 @@
       "fingerprint": "sha1:c75aad6729970a161b049d0968c0d81679c95a87",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "FLOOING SUBSTRATE",
       "type": "PDFTEXT",
       "x": 575.7,
@@ -8336,9 +8337,7 @@
       "fingerprint": "sha1:800523302d9d1a47eb48360e763b787aee765d18",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "FLOORING SUBSTRATE",
       "type": "PDFTEXT",
       "x": 586.8,
@@ -9039,8 +9038,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "steel",
-        "part": "wall"
+        "part": "wall",
+        "qualifier": "varies"
       },
       "text_raw": "WALL STRUCTURE (VARIES)",
       "type": "PDFTEXT",
@@ -9184,7 +9183,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "part": "architrave"
+        "part": "architrave",
+        "qualifier": "typical"
       },
       "text_raw": "TYPICAL ARCHITRAVE DETAILS",
       "type": "PDFTEXT",
@@ -9245,9 +9245,7 @@
       "fingerprint": "sha1:b1dcad58a8548d7753bc8cf778fd1f06c8fbca99",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "ON SUBSTRATE",
       "type": "PDFTEXT",
       "x": 160.4,
@@ -9310,7 +9308,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "part": "slab"
+        "part": "slab",
+        "qualifier": "nominal"
       },
       "text_raw": "NOM. 50MM SLAB",
       "type": "PDFTEXT",
@@ -9411,7 +9410,9 @@
       "fingerprint": "sha1:ab4df7244324b831d80a838e3d6fb1934849db23",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "qualifier": "varies"
+      },
       "text_raw": "BUILDUP (VARIES)",
       "type": "PDFTEXT",
       "x": 577.5,
@@ -9618,9 +9619,7 @@
       "fingerprint": "sha1:4ca5ee84c03b54ea408b0afa0f312f3e8db90cc4",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "SUB",
       "type": "PDFTEXT",
       "x": 532.2,
@@ -9845,6 +9844,7 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
+        "material": "tile",
         "part": "tile"
       },
       "text_raw": "SCOPE + SCHEDULES FOR TILE",
@@ -9928,7 +9928,9 @@
       "fingerprint": "sha1:14623e36507b4d395a2e92f46824ac7eaa9c4f96",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "qualifier": "varies"
+      },
       "text_raw": "BUILDUP (VARIES)",
       "type": "PDFTEXT",
       "x": 589.1,
@@ -10605,7 +10607,9 @@
       "fingerprint": "sha1:11914411d977c38d83380f5b46591e77d76dcac8",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "qualifier": "varies"
+      },
       "text_raw": "FOYER FINISH (VARIES) REFER",
       "type": "PDFTEXT",
       "x": 674.6,
@@ -11070,9 +11074,7 @@
       "fingerprint": "sha1:ca356f05265f8d0fb594c7ec01fa494e27833083",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "SUB DECK DRAINAGE",
       "type": "PDFTEXT",
       "x": 512.7,
@@ -11094,7 +11096,8 @@
       "layer": "PDF-P1",
       "parsed": {
         "material": "timber",
-        "part": "entry"
+        "part": "entry",
+        "qualifier": "typical"
       },
       "text_raw": "TYPICAL TIMBER ENTRY DOOR.",
       "type": "PDFTEXT",
@@ -11156,7 +11159,6 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "steel",
         "part": "floor"
       },
       "text_raw": "(REFER SCHEDULE OF FLOOR FINISHES FOR PRODUCT)",
@@ -11179,7 +11181,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "part": "reveal"
+        "part": "reveal",
+        "qualifier": "typical"
       },
       "text_raw": "REVEAL TYPICAL",
       "type": "PDFTEXT",
@@ -11387,8 +11390,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "steel",
-        "part": "floor"
+        "part": "floor",
+        "qualifier": "varies"
       },
       "text_raw": "FLOOR STRUCTURE (VARIES)",
       "type": "PDFTEXT",
@@ -11489,9 +11492,7 @@
       "fingerprint": "sha1:f0109e7836bf377f5f2e6a7cf2186fa1df71b788",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "REFER SCHEDULES FOR SELECTED PRODUCT INFORMATION",
       "type": "PDFTEXT",
       "x": 755.9,
@@ -11717,7 +11718,9 @@
       "fingerprint": "sha1:942b8c06c66c18eecb31991e478ba527f529e7c6",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "qualifier": "varies"
+      },
       "text_raw": "INTERNAL/VARIES",
       "type": "PDFTEXT",
       "x": 145.4,
@@ -11759,9 +11762,7 @@
       "fingerprint": "sha1:e8505de2566013663dde0aaa4dd7d814042e92d7",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "ON SUBSTRATE (FINISHED",
       "type": "PDFTEXT",
       "x": 164.7,
@@ -11823,7 +11824,8 @@
       "layer": "PDF-P1",
       "parsed": {
         "material": "timber",
-        "part": "entry"
+        "part": "entry",
+        "qualifier": "typical"
       },
       "text_raw": "TYPICAL TIMBER ENTRY DOOR.",
       "type": "PDFTEXT",
@@ -11845,7 +11847,6 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "steel",
         "part": "floor"
       },
       "text_raw": "(REFER SCHEDULE OF FLOOR FINISHES FOR PRODUCT)",
@@ -12202,9 +12203,7 @@
       "fingerprint": "sha1:c2956709748f7b81daf0aba4ea511769478611bf",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "FOR CONSTRUCTION",
       "type": "PDFTEXT",
       "x": 93.1,
@@ -12548,6 +12547,7 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
+        "material": "tile",
         "part": "tile"
       },
       "text_raw": "WATERPROOF TREATMENT BEHIND TILES",
@@ -12776,9 +12776,7 @@
       "fingerprint": "sha1:8e9ef474fe9ca6117f029e81aaa25da88d059d74",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "STRUCTURE (CLT OR",
       "type": "PDFTEXT",
       "x": 688.9,
@@ -12818,9 +12816,7 @@
       "fingerprint": "sha1:74a8f3049b4e0fd20129d457b734d539bf473f6c",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "SUBSTRAE",
       "type": "PDFTEXT",
       "x": 671.0,
@@ -13804,6 +13800,7 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
+        "material": "tile",
         "part": "tile"
       },
       "text_raw": "SELECTED TERACOTTA  TILE",
@@ -13946,7 +13943,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "part": "reveal"
+        "part": "reveal",
+        "qualifier": "typical"
       },
       "text_raw": "REVEAL TYPICAL",
       "type": "PDFTEXT",
@@ -13968,7 +13966,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "aluminium"
+        "material": "aluminium",
+        "qualifier": "min"
       },
       "text_raw": "CAV, ALUMINIUM",
       "type": "PDFTEXT",
@@ -14277,7 +14276,6 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "steel",
         "part": "floor"
       },
       "text_raw": "FLOOR STRUCTURE (CLT",
@@ -14644,9 +14642,7 @@
       "fingerprint": "sha1:4ddd237e44319e7a3a3b056b82cec3c79b123640",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "project specification and any instructions",
       "type": "PDFTEXT",
       "x": 33.8,
@@ -16001,7 +15997,9 @@
       "fingerprint": "sha1:b014fd5cdf1409c9665b1fa6711fa12717d37046",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "qualifier": "tbc"
+      },
       "text_raw": "ANGLE, COLOUR: TBC",
       "type": "PDFTEXT",
       "x": 625.6,
@@ -16082,7 +16080,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "aluminium"
+        "material": "aluminium",
+        "qualifier": "min"
       },
       "text_raw": "CAV, ALUMINIUM",
       "type": "PDFTEXT",
@@ -16371,7 +16370,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "part": "jamb"
+        "part": "jamb",
+        "qualifier": "typical"
       },
       "text_raw": "(REFER TO TYPICAL SQUARE SET JAMB DETAIL)",
       "type": "PDFTEXT",
@@ -16558,9 +16558,7 @@
       "fingerprint": "sha1:453f7afaf5d620d1e81016f3a1412cc986746ab2",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "(REFER SCHEDULE FOR PRODUCT)",
       "type": "PDFTEXT",
       "x": 787.3,
@@ -16826,7 +16824,9 @@
       "fingerprint": "sha1:3970915f8209002ebc9b0a87b0ed79df054bfd58",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "qualifier": "tbc"
+      },
       "text_raw": "COLOUR: TBC",
       "type": "PDFTEXT",
       "x": 532.2,
@@ -16926,9 +16926,7 @@
       "fingerprint": "sha1:6f02ace4e2fd6c379de1e4d2f97c463b46a6e6b7",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "SUB",
       "type": "PDFTEXT",
       "x": 230.0,
@@ -16988,9 +16986,7 @@
       "fingerprint": "sha1:a7d2099ffd915658d5eabeb4a03f3abd62764f70",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "ON SUBSTRATE",
       "type": "PDFTEXT",
       "x": 73.8,
@@ -17110,11 +17106,7 @@
       "fingerprint": "sha1:fcdff9c5f2876ec20d52bb2a24a2d9ea8f2bc5dd",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "plywood",
-        "unit": "mm",
-        "value": 2
-      },
+      "parsed": null,
       "text_raw": "PLY2",
       "type": "PDFTEXT",
       "x": 407.4,
@@ -17174,9 +17166,7 @@
       "fingerprint": "sha1:4ed9c1b7abfdcd9822e1085b3858c34570dd4618",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "ON SUBSTRATE",
       "type": "PDFTEXT",
       "x": 532.0,
@@ -17218,7 +17208,9 @@
       "fingerprint": "sha1:7a5ea405d62cce75b6fb8de44181b27b4fa7c64e",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": null,
+      "parsed": {
+        "qualifier": "tbc"
+      },
       "text_raw": "ANGLE, COLOUR: TBC",
       "type": "PDFTEXT",
       "x": 528.3,
@@ -17482,9 +17474,7 @@
       "fingerprint": "sha1:0a993010bfddf30bd62d0d695f8f71cfca8c21d1",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "(REFER SCHEDULE FOR PRODUCT)",
       "type": "PDFTEXT",
       "x": 787.3,
@@ -17544,9 +17534,7 @@
       "fingerprint": "sha1:249d8cb3d731e9395ea2288dbe253e7fe712c71b",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "ON SUBSTRATE",
       "type": "PDFTEXT",
       "x": 154.6,
@@ -17811,7 +17799,6 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "steel",
         "part": "floor"
       },
       "text_raw": "(REFER SCHEDULE OF FLOOR FINISHES FOR PRODUCT)",
@@ -18268,6 +18255,7 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
+        "material": "tile",
         "part": "tile"
       },
       "text_raw": "SELECTED TILE",
@@ -18332,7 +18320,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "part": "jamb"
+        "part": "jamb",
+        "qualifier": "typical"
       },
       "text_raw": "(REFER TO TYPICAL  TILED JAMB DETAIL)",
       "type": "PDFTEXT",
@@ -18939,7 +18928,6 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "steel",
         "part": "jamb"
       },
       "text_raw": "PRODUCT: EZY JAMB",
@@ -19167,6 +19155,7 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
+        "material": "tile",
         "part": "wall"
       },
       "text_raw": "BOTTOM OF WALL TILES",
@@ -19395,7 +19384,10 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "part": "jamb"
+        "material": "quirk",
+        "part": "jamb",
+        "unit": "mm",
+        "value": 10
       },
       "text_raw": "10MM QUIRK AT DOOR JAMB",
       "type": "PDFTEXT",
@@ -20435,10 +20427,7 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "steel",
-        "part": "gutter",
-        "unit": "mm",
-        "value": 406
+        "part": "gutter"
       },
       "text_raw": "BALCONY SUB DECK BOX GUTTER (REFER A.406 FOR DETAIL)",
       "type": "PDFTEXT",
@@ -20559,9 +20548,7 @@
       "fingerprint": "sha1:d91affd8dde91c9fbed2da7f2be5264f70595cb8",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "steel"
-      },
+      "parsed": null,
       "text_raw": "(REFER SCHEDULE OF TACTILE INDICATORS FOR PRODUCT)",
       "type": "PDFTEXT",
       "x": 799.6,
@@ -20782,7 +20769,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "part": "floor"
+        "part": "floor",
+        "qualifier": "varies"
       },
       "text_raw": "FLOOR FINISH VARIES. SHOWN",
       "type": "PDFTEXT",
@@ -20905,11 +20893,7 @@
       "fingerprint": "sha1:19a9138a5bb2125e4ff3aefdb50d92a2da6cbb06",
       "hatch_pattern": null,
       "layer": "PDF-P1",
-      "parsed": {
-        "material": "plywood",
-        "unit": "mm",
-        "value": 2
-      },
+      "parsed": null,
       "text_raw": "PLY2",
       "type": "PDFTEXT",
       "x": 730.2,
@@ -20990,8 +20974,8 @@
       "hatch_pattern": null,
       "layer": "PDF-P1",
       "parsed": {
-        "material": "steel",
-        "part": "floor"
+        "part": "floor",
+        "qualifier": "varies"
       },
       "text_raw": "FLOOR BUILDUP (STRUCTURE AND SETDOWN VARIES)",
       "type": "PDFTEXT",
